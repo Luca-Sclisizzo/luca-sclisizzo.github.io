@@ -1,0 +1,77 @@
+---
+title: "Daniel S. Quintana"
+subtitle: "Professor of Psychology · University of Oslo"
+about:
+  template: trestles
+  image: profile.jpg
+  image-shape: round
+  links:
+    - icon: envelope
+      text: Email
+      href: mailto:daniel.quintana@psykologi.uio.no
+    - icon: mortarboard-fill
+      text: Scholar
+      href: "https://scholar.google.com.au/citations?user=3BsdBosAAAAJ&hl=en&inst=4058163445224007304"
+    # No Bootstrap glyph for ORCID — styles.css draws the real mark via ::before.
+    - text: ORCID
+      href: https://orcid.org/0000-0003-2876-0004
+    - icon: box-arrow-up-right
+      text: OSF
+      href: https://osf.io/user/8e3md
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/dsquintana/
+    - icon: bluesky
+      text: Bluesky
+      href: https://bsky.app/profile/dsquintana.bsky.social
+    - icon: youtube
+      text: YouTube
+      href: https://www.youtube.com/user/dsquintana85
+editor: 
+  markdown: 
+    wrap: 72
+---
+
+I'm a [Professor of Psychology](#0) at the University of Oslo. I lead a
+lab investigating biological systems that link psychological and social
+factors to health, with a focus on neuroendocrine systems and the
+autonomic nervous system. My lab uses various research approaches,
+including intranasal oxytocin studies, large-scale genetics studies,
+neuroimaging, and the collection of autonomic nervous system data.
+
+## Research interests
+
+- The role of the oxytocin system in health and wellbeing
+- Cardiac psychophysiology
+- Evidence synthesis
+- Meta-science
+
+## Featured papers
+
+::: featured
+[**Genetic pathways linking oxytocin-vasotocin hypothalamic subunit
+architecture with psychiatric and metabolic
+traits**](https://doi.org/10.1038/s41380-026-03508-4)<br> Sartorius et
+al., *Molecular Psychiatry* (2026)<br> Estimating the genetic overlap
+between hypothalamic structure and the psychiatric and metabolic
+conditions that so often co-occur.
+[[Preprint](https://www.medrxiv.org/content/10.1101/2025.03.14.25323974v1)]{.featured-links}
+
+[**Improving the precision of intranasal oxytocin
+research**](https://doi.org/10.1038/s41562-020-00996-4)<br> Winterton,
+Westlye, Steen, Andreassen, & Quintana, *Nature Human Behaviour*
+(2021)<br> Why better delivery methodology alone won't fix the field:
+stringent methods need a robust theory of what oxytocin does to ask
+meaningful questions of it.
+[[Preprint](https://osf.io/preprints/osf/gz5jb_v1)]{.featured-links}
+
+[**Oxytocin pathway gene networks in the human
+brain**](https://doi.org/10.1038/s41467-019-08503-8)<br> Quintana et
+al., *Nature Communications* (2019)<br> Voxel-by-voxel expression maps
+of *OXT*, *OXTR*, and *CD38* across the human brain, compared against
+20,737 genes to identify putative pathway interactions. [[Open
+access](https://doi.org/10.1038/s41467-019-08503-8) ·
+[Code](https://osf.io/jp6zs/)]{.featured-links}
+:::
+
+[All publications →](publications.qmd)

@@ -1,0 +1,49 @@
+---
+title: "Software & Data"
+---
+
+Tools from my lab's methods work, alongside the data and code behind individual
+papers.
+
+## R packages
+
+### metameta
+
+Calculates and visualises study-level statistical power in meta-analyses across a
+range of hypothetical effect sizes. It can be used to reanalyse published
+meta-analyses from standard forest plot information, or applied to a new one.
+Key functions are `mapower_se()` and `mapower_ul()` for power estimates, and
+`firepower()` for plots comparing median power across several meta-analyses.
+
+```r
+devtools::install_github("dsquintana/metameta")
+```
+
+[GitHub](https://github.com/dsquintana/metameta) ·
+[Web app](https://dsquintana.shinyapps.io/metameta_app/) ·
+[Paper](https://doi.org/10.1177/25152459221147260)
+
+### ESDist
+
+Calculates and visualises field-specific effect size distributions from data
+extracted from meta-analyses, so that empirical benchmarks can replace generic
+rules of thumb. Includes publication-bias-adjusted variants, and `esd_perc()` for
+locating a given effect within its field's distribution. Written by
+[Bernt Glaser](https://github.com/berntgl); I'm a co-author on the accompanying
+tutorial.
+
+```r
+devtools::install_github("berntgl/ESDist")
+```
+
+[GitHub](https://github.com/berntgl/ESDist) ·
+[Paper](https://doi.org/10.3758/s13428-026-03003-2)
+
+## Data and code
+
+Data, analysis scripts, and preregistrations for individual papers are linked
+directly from each entry on the [Publications](publications.qmd) page, so they sit
+next to the study they belong to rather than in a separate index. Most live on
+[OSF](https://osf.io/user/8e3md); some are on
+[GitHub](https://github.com/dsquintana).
+

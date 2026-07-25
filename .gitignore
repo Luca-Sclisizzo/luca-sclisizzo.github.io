@@ -1,0 +1,30 @@
+# NOTE: _site/ is deliberately NOT ignored. Netlify serves it directly, because
+# its build image has no R and this site renders publications.qmd through knitr.
+# Run `quarto render` before pushing or the deployed site will be stale.
+
+/.quarto/
+_freeze/
+.Rproj.user
+.Rhistory
+.RData
+.DS_Store
+
+# Source documents kept locally, NOT published. The CV .docx contains personal
+# details (date of birth, nationality) that must not go into a public repo.
+*.docx
+List of publications.pdf
+
+# Working spreadsheet used to build the Talks page, not site source.
+osf_presentations.xlsx
+
+# Private working notes.
+NOTES.md
+
+# Unpublished draft post — kept out of the repo so it isn't readable on GitHub.
+# To publish it, three things must change together:
+#   1. delete this line
+#   2. delete the matching "!posts/..." exclusion in _quarto.yml
+#   3. remove `draft: true` from the post's front matter
+posts/quarto-academic-site/
+
+**/*.quarto_ipynb

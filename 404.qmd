@@ -1,0 +1,14 @@
+---
+title: "Page not found"
+---
+
+That page doesn't exist — it may have moved, or the link may be out of date.
+
+- [Home](index.qmd)
+- [Publications](publications.qmd) — full list, with data and code links
+- [Software & Data](software.qmd)
+- [Workshops](workshops.qmd)
+- [CV](cv.qmd)
+
+If you followed a link from somewhere else and think it should work,
+[let me know](mailto:daniel.quintana@psykologi.uio.no).

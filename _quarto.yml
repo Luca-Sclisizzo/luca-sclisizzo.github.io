@@ -1,0 +1,65 @@
+project:
+  type: website
+  output-dir: _site
+  render:
+    - "*.qmd"
+    - "posts/**/*.qmd"
+    # Repo documentation, not site pages. Without these exclusions Quarto renders
+    # them into stray HTML pages and lists them in sitemap.xml.
+    - "!README.md"
+    - "!LICENSE-CONTENT.md"
+    - "!NOTES.md"
+    # DRAFT — not published. `draft: true` in the post's front matter keeps it out
+    # of the listing, RSS, search and sitemap, but Quarto still writes the HTML,
+    # so the URL stays reachable. This exclusion is what actually withholds it.
+    # The post is also gitignored, so it isn't readable on GitHub either.
+    # To publish: delete this line, remove the matching entry from .gitignore,
+    # and remove `draft: true` from the post's front matter.
+    - "!posts/quarto-academic-site/**"
+  resources:
+    # Referenced only from styles.css, so Quarto can't discover it on its own.
+    - ORCID-iD_icon_BW_vector.svg
+
+website:
+  title: "Daniel S. Quintana"
+  description: "Academic homepage of Daniel S. Quintana — research, workshops, and software."
+  site-url: "https://dsquintana.com"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - href: publications.qmd
+        text: Publications
+      - href: talks.qmd
+        text: Talks
+      - href: workshops.qmd
+        text: Workshops
+      - href: software.qmd
+        text: Software & Data
+      - href: blog.qmd
+        text: Blog
+      - href: cv.qmd
+        text: CV
+    right:
+      - icon: envelope
+        href: mailto:daniel.quintana@psykologi.uio.no
+        aria-label: Email
+  page-footer:
+    left: "© 2026 Daniel S. Quintana"
+    right: "Built with [Quarto](https://quarto.org)"
+  reader-mode: false
+
+format:
+  html:
+    theme:
+      light: [cosmo, theme-light.scss]
+      dark: [darkly, theme-dark.scss]
+    css: styles.css
+    toc: false
+    smooth-scroll: true
+    link-external-newwindow: true
+    grid:
+      body-width: 900px
+
+execute:
+  freeze: auto

@@ -1,0 +1,18 @@
+---
+title: "Publications"
+execute:
+  freeze: false
+---
+
+```{r}
+#| include: false
+source("bibtools.R")
+```
+
+I lead the [Behavioral Neuroendocrinology Lab](https://www.sv.uio.no/psi/english/research/groups/bnl/), which investigates the biological systems that link psychological and social factors to health, with a focus on neuroendocrine systems and the autonomic nervous system. Below is a list of my publications, preprints and research materials are linked where available; [email me](mailto:daniel.quintana@psykologi.uio.no) if anything is behind a paywall.
+
+```{r}
+#| echo: false
+#| output: asis
+render_by_year("publications.bib", csl = "apa.csl")
+```

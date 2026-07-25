@@ -1,0 +1,36 @@
+---
+title: "Workshops"
+---
+
+I run in-person and online workshops on social media for academics, open science
+practices, and meta-analysis. Sessions run from two to six hours depending on
+what participants need.
+
+[Get in touch](mailto:daniel.quintana@psykologi.uio.no) to discuss requirements.
+
+## Social media for academics
+
+- Setting up your bio
+- Sharing your research
+- Creating threads to share a new paper
+- Building your network
+- How to use images and video
+- Finding things to share
+- Getting started with podcasting
+
+## Implementing open science practices in biobehavioural research
+
+- Pre-registration using the Open Science Framework
+- Sharing your data on the Open Science Framework
+- Power analysis
+- Evaluating evidence to support null hypotheses using Bayes factors and
+  equivalence testing
+- Using JASP and jamovi for reproducible point-and-click analysis
+
+## Meta-analysis for biobehavioural research
+
+- Pre-registering meta-analyses
+- Reproducible point-and-click meta-analysis in JASP
+- Performing meta-analysis in R
+- Publication bias
+- Visualisation
