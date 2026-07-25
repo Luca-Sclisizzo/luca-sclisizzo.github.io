@@ -49,32 +49,60 @@
     "text": "Data and code\nData, analysis scripts, and preregistrations for individual papers are linked directly from each entry on the Publications page, so they sit next to the study they belong to rather than in a separate index. Most live on OSF; some are on GitHub."
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Daniel S. Quintana",
+    "objectID": "posts/quarto-academic-site/index.html",
+    "href": "posts/quarto-academic-site/index.html",
+    "title": "How to create a simple academic website",
     "section": "",
-    "text": "I’m a Professor of Psychology at the University of Oslo. I lead a lab investigating biological systems that link psychological and social factors to health, with a focus on neuroendocrine systems and the autonomic nervous system. My lab uses various research approaches, including intranasal oxytocin studies, large-scale genetics studies, neuroimaging, and the collection of autonomic nervous system data."
+    "text": "Some of the most popular resources I’ve previously shared, like this screencast, have been about how to create an academic website. It’s important for academics at any career stage to have a site that they fully control. Most institutions offer their staff personal webpages, but these typically have little flexibility and are lost when people leave institutions.\nI’ve been playing around with the Quarto publishing system over the past few months, which also includes the capability to build websites. I’ve been impressed at how Quarto can build academic papers (I wrote this preprint using Quarto), so I wanted to try my hand at using it to rewrite my own website, which is where you’re reading this very post. Compared to how I built websites in R in the past, which was pretty hacky to be honest, using Quarto was a much smoother process. I also wanted a way to easily update my publication list, based on my Zotero library, and to add links to materials associated with papers, along with open access versions of paywalled papers.\nIn this post I’m going to walk through two different ways you can make a site like this. First I’ll walk through how to clone the whole thing from GitHub, which requires you to edit in your own info. Second, I’m going to show you how to make a site like this by using a Shiny web app I made that creates the required code with your own info from the get go."
   },
   {
-    "objectID": "index.html#research-interests",
-    "href": "index.html#research-interests",
-    "title": "Daniel S. Quintana",
-    "section": "Research interests",
-    "text": "Research interests\n\nThe role of the oxytocin system in health and wellbeing\nCardiac psychophysiology\nEvidence synthesis\nMeta-science"
+    "objectID": "posts/quarto-academic-site/index.html#what-you-need",
+    "href": "posts/quarto-academic-site/index.html#what-you-need",
+    "title": "How to create a simple academic website",
+    "section": "What you need",
+    "text": "What you need\nQuarto and R. The site itself relies on a single R package — knitr — so there’s no long list of dependencies to work through.\nOne thing worth pointing out first, because the commands below switch between the two: RStudio’s Console and Terminal are two tabs in the same pane. The Console runs R code, while the Terminal runs your computer’s own command line. Anything like install.packages() goes in the Console; stuff like git, quarto and brew commands go in the Terminal.\nYou may already have Quarto as recent versions of RStudio ship with it bundled. You can double-check from the Terminal in RStudio:\nquarto --version\nIf that comes back with a version number, you’re good to go. If it says command not found, install it from quarto.org, which has installers for macOS, Windows and Linux. On a Mac with Homebrew you can instead run in Terminal:\nbrew install --cask quarto\nOnce it’s installed, add knitr from the R console:\ninstall.packages(\"knitr\")"
   },
   {
-    "objectID": "index.html#featured-papers",
-    "href": "index.html#featured-papers",
-    "title": "Daniel S. Quintana",
-    "section": "Featured papers",
-    "text": "Featured papers\n\nGenetic pathways linking oxytocin-vasotocin hypothalamic subunit architecture with psychiatric and metabolic traits Sartorius et al., Molecular Psychiatry (2026) Estimating the genetic overlap between hypothalamic structure and the psychiatric and metabolic conditions that so often co-occur. Preprint\nImproving the precision of intranasal oxytocin research Winterton, Westlye, Steen, Andreassen, & Quintana, Nature Human Behaviour (2021) Why better delivery methodology alone won’t fix the field: stringent methods need a robust theory of what oxytocin does to ask meaningful questions of it. Preprint\nOxytocin pathway gene networks in the human brain Quintana et al., Nature Communications (2019) Voxel-by-voxel expression maps of OXT, OXTR, and CD38 across the human brain, compared against 20,737 genes to identify putative pathway interactions. Open access · Code\n\nAll publications →"
+    "objectID": "posts/quarto-academic-site/index.html#getting-it-running",
+    "href": "posts/quarto-academic-site/index.html#getting-it-running",
+    "title": "How to create a simple academic website",
+    "section": "Getting it running",
+    "text": "Getting it running\nNow run this in the Terminal.\ngit clone https://github.com/dsquintana/dsquintana.com.git\ncd dsquintana.com\nquarto preview\nThat serves the site locally with live reload. Here’s what you need to do to make it your own: replace publications.bib with your own1, swap the profile photo with your own photo, and work through index.qmd, _quarto.yml, and whichever pages you want to keep. Either edit pages or delete them.\nThose two filenames are each hardcoded in exactly one place, so the easiest route is to name your files publications.bib and profile.jpg. A PNG is fine too, but then you need to change the image: line at the top of index.qmd to match — if the name and the file disagree, Quarto renders a missing image without raising an error.\nYou’ll also want to empty links.csv down to its header row. Mine holds a hundred-odd links to my own data and code, each keyed to a citation key from my bibliography — against your library they’d match nothing, and every row would show up as a warning when you render. Deleting the file entirely works too; the site renders fine without it. You’ll just be missing any additional links to data and code. The README.md has the full list of what you need to do.\n\nOr skip the cloning\nStarting from my own webpage means deleting a lot of it first, and assumes you’re reasonably comfortable in RStudio. So, I also built a website builder. With this app, you fill in your name, a bio, and a few links, upload a photo and your Zotero BibTeX export (see above), and it hands back a zip of the same site with your details already in it and mine gone. This generates a two-page version that includes a homepage and a publications list.\nYou’ll still need R and Quarto installed to build what it gives you (see above)."
   },
   {
-    "objectID": "blog.html",
-    "href": "blog.html",
-    "title": "Blog",
-    "section": "",
-    "text": "New posts are published to an RSS feed — paste that link into any feed reader to follow along.\n\n\n\n\n\n\n\n\nNo matching items"
+    "objectID": "posts/quarto-academic-site/index.html#the-publication-list",
+    "href": "posts/quarto-academic-site/index.html#the-publication-list",
+    "title": "How to create a simple academic website",
+    "section": "The publication list",
+    "text": "The publication list\nQuarto handles citations through pandoc’s citeproc, which is nice, but it creates one flat bibliography per document. I wanted mine grouped under year headings, newest first.\nThere’s no built-in way to do that, so bibtools.R takes a fairly blunt approach by splitting the .bib file by year, running each year’s subset through pandoc separately, and pasting the resulting HTML fragments back together under ### headings. The whole publications page is then three lines:\n```{r}\n#| echo: false\n#| output: asis\nrender_by_year(\"publications.bib\", csl = \"apa.csl\")\n```\nAdd a paper in Zotero, re-export, re-render. New years appear on their own."
+  },
+  {
+    "objectID": "posts/quarto-academic-site/index.html#attaching-data-and-code-links",
+    "href": "posts/quarto-academic-site/index.html#attaching-data-and-code-links",
+    "title": "How to create a simple academic website",
+    "section": "Attaching data and code links",
+    "text": "Attaching data and code links\nFor me, it was important to add links to data and code associated with papers. BibTeX can’t help here, since there’s no standard field for it, so I put together a solution whereby the links live in a separate file, links.csv, joined to papers by citation key:\ncitekey,label,url\nQuintana2023,Data & code,https://osf.io/dr64q/\nQuintana2023,Web app,https://dsquintana.shinyapps.io/metameta_app/\nbibtools.R reads that file and injects a small labelled link into each matching reference. One row per link; a paper can have as many as you like (e.g., data, code, preprint). The labels are free text, so you decide what categories you want — mine are Data & code, Code, Preregistration, Preprint, Web app, and Open access article.\nAs links.csv is kept separate from the .bib, Zotero remains the ground truth for bibliographic data, and re-exporting never messes with these links."
+  },
+  {
+    "objectID": "posts/quarto-academic-site/index.html#putting-it-online",
+    "href": "posts/quarto-academic-site/index.html#putting-it-online",
+    "title": "How to create a simple academic website",
+    "section": "Putting it online",
+    "text": "Putting it online\nThe normal pattern for a static site, like this one, is to connect a host to your repository and let it build on every push. That doesn’t work here, because the publication list is generated by R at render time, and neither Netlify’s nor GitHub Pages’ build image ships with R. Installing R and knitr on every deploy is possible, but it’s slow and one more thing to break. So I build locally and commit the output.\nCommitting build output is normally poor practice, and it does make the commit history noisier. The tradeoff is worth it here, I think, because deploys can’t fail from a dependency problem, as nothing is being built on the server. The one downside is that quarto render becomes mandatory before pushing — skip it and you deploy your previous build, silently and with no error.\n\nGetting it onto GitHub\nIf you used the builder app, the folder it gave you isn’t a git repository yet. From the Terminal, inside that folder:\ngit init\ngit branch -M main\ngit add -A\ngit commit -m \"Initial commit\"\nIf you cloned my repo instead, you already have a repository — but it still points at mine, so you’ll want to repoint it in a moment.\nNow make an empty repository at github.com/new (assuming you’re logged in to your GitHub account). Leave “Add a README”, “.gitignore” and “license” all unticked as you already have those. Then, swapping in your own username and own repository name:\ngit remote add origin https://github.com/YOU/YOUR-REPO.git\ngit push -u origin main\nIf you cloned my site, use git remote set-url origin ... instead of git remote add.\nOne thing that sometimes catches people out: when git asks for a password, your GitHub account password won’t work. You need either a personal access token pasted in place of the password, or the GitHub CLI (gh auth login), which sets this up for you.\n\n\nConnecting Netlify\nIn Netlify: Add new site → Import an existing project → GitHub, then pick your repository. Two settings matter:\n\nBuild command — leave it completely empty\nPublish directory — _site\n\nThat’s the whole configuration. Netlify serves the folder you already built.\n\n\nA free address, or your own domain\nNetlify gives every site a free address like something.netlify.app, and you can change the something part in the site settings. That’s a good place to start, and nothing about your setup has to change if you add a domain later.\nIf you do want your own, buy one (they’re usually around $10–15 a year), add it under Domain management, and follow Netlify’s DNS instructions.\nWhichever you use, turn on Force HTTPS in Netlify’s domain settings once the certificate has been issued. Without it your site is still reachable over plain http://, and browsers increasingly make that look alarming.\n\n\nUpdating it from then on\nOnce that’s set up, publishing a change is three commands:\nquarto render\ngit add -A && git commit -m \"Update site\"\ngit push\nNetlify picks up the push and redeploys in about a minute. The first line is the one to remember: Netlify serves whatever is in _site/, so skipping the render pushes your previous build and nothing will tell you that’s what happened."
+  },
+  {
+    "objectID": "posts/quarto-academic-site/index.html#reuse",
+    "href": "posts/quarto-academic-site/index.html#reuse",
+    "title": "How to create a simple academic website",
+    "section": "Reuse",
+    "text": "Reuse\nThe code is MIT licensed and the content is CC BY 4.0, so take whatever’s useful. You don’t need to credit me for the code, though I’d be glad to hear about it on LinkedIn or Bluesky if you build something with it."
+  },
+  {
+    "objectID": "posts/quarto-academic-site/index.html#footnotes",
+    "href": "posts/quarto-academic-site/index.html#footnotes",
+    "title": "How to create a simple academic website",
+    "section": "Footnotes",
+    "text": "Footnotes\n\n\nTo do this, in Zotero create a collection that only contains your publications, select all of them, right-click, then select ‘Export items’ (choose BibTeX as the format)↩︎"
   },
   {
     "objectID": "cv.html",
@@ -124,6 +152,34 @@
     "title": "CV",
     "section": "Profiles",
     "text": "Profiles\nGoogle Scholar · ORCID · OSF · GitHub"
+  },
+  {
+    "objectID": "blog.html",
+    "href": "blog.html",
+    "title": "Blog",
+    "section": "",
+    "text": "New posts are published to an RSS feed — paste that link into any feed reader to follow along.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nHow to create a simple academic website\n\n\n\nwebsite\n\nquarto\n\n\n\nHow I built this website, and how you can build something similar. A key feature is that this approach can keep your publication list current via Zotero and it’s easy to attach open data and code links to papers in your publication list.\n\n\n\n\n\nJul 25, 2026\n\n\nDaniel S. Quintana\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Daniel S. Quintana",
+    "section": "",
+    "text": "I’m a Professor of Psychology at the University of Oslo. I lead a lab investigating biological systems that link psychological and social factors to health, with a focus on neuroendocrine systems and the autonomic nervous system. My lab uses various research approaches, including intranasal oxytocin studies, large-scale genetics studies, neuroimaging, and the collection of autonomic nervous system data."
+  },
+  {
+    "objectID": "index.html#research-interests",
+    "href": "index.html#research-interests",
+    "title": "Daniel S. Quintana",
+    "section": "Research interests",
+    "text": "Research interests\n\nThe role of the oxytocin system in health and wellbeing\nCardiac psychophysiology\nEvidence synthesis\nMeta-science"
+  },
+  {
+    "objectID": "index.html#featured-papers",
+    "href": "index.html#featured-papers",
+    "title": "Daniel S. Quintana",
+    "section": "Featured papers",
+    "text": "Featured papers\n\nGenetic pathways linking oxytocin-vasotocin hypothalamic subunit architecture with psychiatric and metabolic traits Sartorius et al., Molecular Psychiatry (2026) Estimating the genetic overlap between hypothalamic structure and the psychiatric and metabolic conditions that so often co-occur. Preprint\nImproving the precision of intranasal oxytocin research Winterton, Westlye, Steen, Andreassen, & Quintana, Nature Human Behaviour (2021) Why better delivery methodology alone won’t fix the field: stringent methods need a robust theory of what oxytocin does to ask meaningful questions of it. Preprint\nOxytocin pathway gene networks in the human brain Quintana et al., Nature Communications (2019) Voxel-by-voxel expression maps of OXT, OXTR, and CD38 across the human brain, compared against 20,737 genes to identify putative pathway interactions. Open access · Code\n\nAll publications →"
   },
   {
     "objectID": "publications.html",

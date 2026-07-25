@@ -6,8 +6,11 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Daniel S. Quintana">
+<meta name="dcterms.date" content="2026-07-25">
+<meta name="description" content="How I built this website, and how you can build something similar. A key feature is that this approach can keep your publication list current via Zotero and it’s easy to attach open data and code links to papers in your publication list.">
 
-<title>Blog – Daniel S. Quintana</title>
+<title>How to create a simple academic website – Daniel S. Quintana</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -23,32 +26,65 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
+/* CSS for syntax highlighting */
+html { -webkit-text-size-adjust: 100%; }
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-listing/list.min.js"></script>
-<script src="site_libs/quarto-listing/quarto-listing.js"></script>
-<script src="site_libs/quarto-html/quarto.js" type="module"></script>
-<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-0a6b7249c26820e032cb0bd839ff02b1.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-d97f1e4c114905dc23eba074f8119ce3.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-dark-303f0b56543669cc220706fa0b8b4b14.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="site_libs/bootstrap/bootstrap-d97f1e4c114905dc23eba074f8119ce3.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-dark-0a6b7249c26820e032cb0bd839ff02b1.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap-d97f1e4c114905dc23eba074f8119ce3.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-dark-303f0b56543669cc220706fa0b8b4b14.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../../site_libs/bootstrap/bootstrap-d97f1e4c114905dc23eba074f8119ce3.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -76,83 +112,25 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script>
-
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-date','listing-title','listing-author','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description","listing-categories"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
 <style>html{ scroll-behavior: smooth; }</style>
 
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
-
-<link rel="stylesheet" href="styles.css">
-<link rel="alternate" type="application/rss+xml" title="Daniel S. Quintana" href="blog.xml" data-external="1"><meta property="og:title" content="Blog – Daniel S. Quintana">
-<meta property="og:description" content="Notes on methods, meta-science, and my research.">
+<link rel="stylesheet" href="../../styles.css">
+<meta property="og:title" content="How to create a simple academic website – Daniel S. Quintana">
+<meta property="og:description" content="How I built this website, and how you can build something similar. A key feature is that this approach can keep your publication list current via Zotero and it’s easy to attach open data and code links to papers in your publication list.">
 <meta property="og:image" content="https://dsquintana.com/posts/quarto-academic-site/card.png">
 <meta property="og:site_name" content="Daniel S. Quintana">
 <meta property="og:image:height" content="630">
 <meta property="og:image:width" content="1200">
-<meta name="twitter:title" content="Blog – Daniel S. Quintana">
-<meta name="twitter:description" content="Notes on methods, meta-science, and my research.">
+<meta name="twitter:title" content="How to create a simple academic website – Daniel S. Quintana">
+<meta name="twitter:description" content="How I built this website, and how you can build something similar. A key feature is that this approach can keep your publication list current via Zotero and it’s easy to attach open data and code links to papers in your publication list.">
 <meta name="twitter:image" content="https://dsquintana.com/posts/quarto-academic-site/card.png">
-<meta name="twitter:card" content="summary">
+<meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:image-height" content="630">
 <meta name="twitter:image-width" content="1200">
 </head>
 
-<body class="nav-fixed quarto-light"><script id="quarto-html-before-body" type="application/javascript">
+<body class="nav-fixed fullcontent quarto-light"><script id="quarto-html-before-body" type="application/javascript">
     const toggleBodyColorMode = (bsSheetEl) => {
       const mode = bsSheetEl.getAttribute("data-mode");
       const bodyEl = window.document.querySelector("body");
@@ -321,7 +299,7 @@ window.Quarto = {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title">Daniel S. Quintana</span>
     </a>
   </div>
@@ -332,31 +310,31 @@ window.Quarto = {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./index.html"> 
+    <a class="nav-link" href="../../index.html"> 
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./publications.html"> 
+    <a class="nav-link" href="../../publications.html"> 
 <span class="menu-text">Publications</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./talks.html"> 
+    <a class="nav-link" href="../../talks.html"> 
 <span class="menu-text">Talks</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./workshops.html"> 
+    <a class="nav-link" href="../../workshops.html"> 
 <span class="menu-text">Workshops</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./software.html"> 
+    <a class="nav-link" href="../../software.html"> 
 <span class="menu-text">Software &amp; Data</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./blog.html" aria-current="page"> 
+    <a class="nav-link" href="../../blog.html"> 
 <span class="menu-text">Blog</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./cv.html"> 
+    <a class="nav-link" href="../../cv.html"> 
 <span class="menu-text">CV</span></a>
   </li>  
 </ul>
@@ -375,26 +353,45 @@ window.Quarto = {
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(1)</span></div><div class="category" data-category="cXVhcnRv">quarto <span class="quarto-category-count">(1)</span></div><div class="category" data-category="d2Vic2l0ZQ==">website <span class="quarto-category-count">(1)</span></div></div></div>
+    
 <!-- main -->
-<main class="content column-page-left" id="quarto-document-content">
+<main class="content" id="quarto-document-content">
 
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Blog</h1>
-<p class="subtitle lead">Notes on methods, meta-science, and my research.</p>
+<h1 class="title">How to create a simple academic website</h1>
+  <div class="quarto-categories">
+    <div class="quarto-category">website</div>
+    <div class="quarto-category">quarto</div>
+  </div>
+  </div>
+
+<div>
+  <div class="description">
+    How I built this website, and how you can build something similar. A key feature is that this approach can keep your publication list current via Zotero and it’s easy to attach open data and code links to papers in your publication list.
+  </div>
 </div>
 
 
+<div class="quarto-title-meta">
 
-<div class="quarto-title-meta column-page-left">
-
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Daniel S. Quintana </p>
+          </div>
+  </div>
     
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">July 25, 2026</p>
+    </div>
+  </div>
   
     
   </div>
@@ -404,48 +401,111 @@ window.Quarto = {
 </header>
 
 
-<p>New posts are published to an <a href="blog.xml">RSS feed</a> — paste that link into any feed reader to follow along.</p>
+<p>Some of the most popular resources I’ve previously shared, like <a href="https://youtu.be/ox_Ue9yzf-0?si=jemm9bm09x-FHA0N">this screencast</a>, have been about how to create an academic website. It’s important for academics at <em>any</em> career stage to have a site that they fully control. Most institutions offer their staff personal webpages, but these typically have little flexibility and are lost when people leave institutions.</p>
+<p>I’ve been playing around with the <a href="https://quarto.org">Quarto publishing system</a> over the past few months, which also includes the capability to build websites. I’ve been impressed at how Quarto can build academic papers (I wrote <a href="https://osf.io/preprints/psyarxiv/jh36d_v1">this preprint</a> using Quarto), so I wanted to try my hand at using it to rewrite my own website, which is where you’re reading this very post. Compared to how I built websites in R in the past, which was pretty hacky to be honest, using Quarto was a much smoother process. I also wanted a way to easily update my publication list, based on my Zotero library, and to add links to materials associated with papers, along with open access versions of paywalled papers.</p>
+<p>In this post I’m going to walk through two different ways you can make a site like this. First I’ll walk through how to clone the whole thing from GitHub, which requires you to edit in your own info. Second, I’m going to show you how to make a site like this by using a Shiny web app I made that creates the required code with your <em>own</em> info from the get go.</p>
+<section id="what-you-need" class="level2">
+<h2 class="anchored" data-anchor-id="what-you-need">What you need</h2>
+<p>Quarto and R. The site itself relies on a single R package — knitr — so there’s no long list of dependencies to work through.</p>
+<p>One thing worth pointing out first, because the commands below switch between the two: RStudio’s <strong>Console</strong> and <strong>Terminal</strong> are two tabs in the same pane. The Console runs R code, while the Terminal runs your computer’s own command line. Anything like <code>install.packages()</code> goes in the Console; stuff like <code>git</code>, <code>quarto</code> and <code>brew</code> commands go in the Terminal.</p>
+<p>You may already have Quarto as recent versions of RStudio ship with it bundled. You can double-check from the Terminal in RStudio:</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="ex">quarto</span> <span class="at">--version</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<p>If that comes back with a version number, you’re good to go. If it says command not found, install it from <a href="https://quarto.org/docs/get-started/">quarto.org</a>, which has installers for macOS, Windows and Linux. On a Mac with Homebrew you can instead run in Terminal:</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb2"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="ex">brew</span> install <span class="at">--cask</span> quarto</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<p>Once it’s installed, add knitr from the R console:</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb3"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="fu">install.packages</span>(<span class="st">"knitr"</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</section>
+<section id="getting-it-running" class="level2">
+<h2 class="anchored" data-anchor-id="getting-it-running">Getting it running</h2>
+<p>Now run this in the Terminal.</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb4"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> clone https://github.com/dsquintana/dsquintana.com.git</span>
+<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a><span class="bu">cd</span> dsquintana.com</span>
+<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a><span class="ex">quarto</span> preview</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<p>That serves the site locally with live reload. Here’s what you need to do to make it your own: replace <code>publications.bib</code> with your own<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a>, swap the profile photo with your own photo, and work through <code>index.qmd</code>, <code>_quarto.yml</code>, and whichever pages you want to keep. Either edit pages or delete them.</p>
+<p>Those two filenames are each hardcoded in exactly one place, so the easiest route is to name your files <code>publications.bib</code> and <code>profile.jpg</code>. A PNG is fine too, but then you need to change the <code>image:</code> line at the top of <code>index.qmd</code> to match — if the name and the file disagree, Quarto renders a missing image without raising an error.</p>
+<p>You’ll also want to empty <code>links.csv</code> down to its header row. Mine holds a hundred-odd links to my own data and code, each keyed to a citation key from <em>my</em> bibliography — against your library they’d match nothing, and every row would show up as a warning when you render. Deleting the file entirely works too; the site renders fine without it. You’ll just be missing any additional links to data and code. The <code>README.md</code> has the full list of what you need to do.</p>
+<section id="or-skip-the-cloning" class="level3">
+<h3 class="anchored" data-anchor-id="or-skip-the-cloning">Or skip the cloning</h3>
+<p>Starting from my own webpage means deleting a lot of it first, and assumes you’re reasonably comfortable in RStudio. So, I also built a <a href="https://dsquintana.shinyapps.io/website-builder/">website builder</a>. With this app, you fill in your name, a bio, and a few links, upload a photo and your Zotero BibTeX export (see above), and it hands back a zip of the same site with your details already in it and mine gone. This generates a two-page version that includes a homepage and a publications list.</p>
+<p>You’ll still need R and Quarto installed to build what it gives you (see above).</p>
+</section>
+</section>
+<section id="the-publication-list" class="level2">
+<h2 class="anchored" data-anchor-id="the-publication-list">The publication list</h2>
+<p>Quarto handles citations through pandoc’s citeproc, which is nice, but it creates one flat bibliography per document. I wanted mine grouped under year headings, newest first.</p>
+<p>There’s no built-in way to do that, so <code>bibtools.R</code> takes a fairly blunt approach by splitting the <code>.bib</code> file by year, running each year’s subset through pandoc separately, and pasting the resulting HTML fragments back together under <code>###</code> headings. The whole publications page is then three lines:</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb5"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="in">```{r}</span></span>
+<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a><span class="co">#| echo: false</span></span>
+<span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a><span class="co">#| output: asis</span></span>
+<span id="cb5-4"><a href="#cb5-4" aria-hidden="true" tabindex="-1"></a><span class="fu">render_by_year</span>(<span class="st">"publications.bib"</span>, <span class="at">csl =</span> <span class="st">"apa.csl"</span>)</span>
+<span id="cb5-5"><a href="#cb5-5" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<p>Add a paper in Zotero, re-export, re-render. New years appear on their own.</p>
+</section>
+<section id="attaching-data-and-code-links" class="level2">
+<h2 class="anchored" data-anchor-id="attaching-data-and-code-links">Attaching data and code links</h2>
+<p>For me, it was important to add links to data and code associated with papers. BibTeX can’t help here, since there’s no standard field for it, so I put together a solution whereby the links live in a separate file, <code>links.csv</code>, joined to papers by citation key:</p>
+<pre class="csv"><code>citekey,label,url
+Quintana2023,Data &amp; code,https://osf.io/dr64q/
+Quintana2023,Web app,https://dsquintana.shinyapps.io/metameta_app/</code></pre>
+<p><code>bibtools.R</code> reads that file and injects a small labelled link into each matching reference. One row per link; a paper can have as many as you like (e.g., data, code, preprint). The labels are free text, so you decide what categories you want — mine are <em>Data &amp; code</em>, <em>Code</em>, <em>Preregistration</em>, <em>Preprint</em>, <em>Web app</em>, and <em>Open access article</em>.</p>
+<p>As <code>links.csv</code> is kept separate from the <code>.bib</code>, Zotero remains the ground truth for bibliographic data, and re-exporting never messes with these links.</p>
+</section>
+<section id="putting-it-online" class="level2">
+<h2 class="anchored" data-anchor-id="putting-it-online">Putting it online</h2>
+<p>The normal pattern for a static site, like this one, is to connect a host to your repository and let it build on every push. That doesn’t work here, because the publication list is generated by R at render time, and neither Netlify’s nor GitHub Pages’ build image ships with R. Installing R and knitr on every deploy <em>is</em> possible, but it’s slow and one more thing to break. So I build locally and commit the output.</p>
+<p>Committing build output is normally poor practice, and it does make the commit history noisier. The tradeoff is worth it here, I think, because deploys can’t fail from a dependency problem, as nothing is being built on the server. The one downside is that <code>quarto render</code> becomes mandatory before pushing — skip it and you deploy your previous build, silently and with no error.</p>
+<section id="getting-it-onto-github" class="level3">
+<h3 class="anchored" data-anchor-id="getting-it-onto-github">Getting it onto GitHub</h3>
+<p>If you used the builder app, the folder it gave you isn’t a git repository yet. From the Terminal, inside that folder:</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb7"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> init</span>
+<span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> branch <span class="at">-M</span> main</span>
+<span id="cb7-3"><a href="#cb7-3" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> add <span class="at">-A</span></span>
+<span id="cb7-4"><a href="#cb7-4" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> commit <span class="at">-m</span> <span class="st">"Initial commit"</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<p>If you cloned my repo instead, you already have a repository — but it still points at mine, so you’ll want to repoint it in a moment.</p>
+<p>Now make an empty repository at <a href="https://github.com/new">github.com/new</a> (assuming you’re logged in to your GitHub account). Leave “Add a README”, “.gitignore” and “license” all unticked as you already have those. Then, swapping in your <u>own username</u> and <u>own repository name</u>:</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb8"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> remote add origin https://github.com/YOU/YOUR-REPO.git</span>
+<span id="cb8-2"><a href="#cb8-2" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> push <span class="at">-u</span> origin main</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<p>If you cloned my site, use <code>git remote set-url origin ...</code> instead of <code>git remote add</code>.</p>
+<p>One thing that sometimes catches people out: when git asks for a password, your GitHub account password won’t work. You need either a <a href="https://github.com/settings/tokens">personal access token</a> pasted in place of the password, or the <a href="https://cli.github.com">GitHub CLI</a> (<code>gh auth login</code>), which sets this up for you.</p>
+</section>
+<section id="connecting-netlify" class="level3">
+<h3 class="anchored" data-anchor-id="connecting-netlify">Connecting Netlify</h3>
+<p>In <a href="https://netlify.com">Netlify</a>: <strong>Add new site → Import an existing project → GitHub</strong>, then pick your repository. Two settings matter:</p>
+<ul>
+<li><strong>Build command</strong> — leave it completely empty</li>
+<li><strong>Publish directory</strong> — <code>_site</code></li>
+</ul>
+<p>That’s the whole configuration. Netlify serves the folder you already built.</p>
+</section>
+<section id="a-free-address-or-your-own-domain" class="level3">
+<h3 class="anchored" data-anchor-id="a-free-address-or-your-own-domain">A free address, or your own domain</h3>
+<p>Netlify gives every site a free address like <code>something.netlify.app</code>, and you can change the <code>something</code> part in the site settings. That’s a good place to start, and nothing about your setup has to change if you add a domain later.</p>
+<p>If you <em>do</em> want your own, buy one (they’re usually around $10–15 a year), add it under <strong>Domain management</strong>, and follow Netlify’s DNS instructions.</p>
+<p>Whichever you use, turn on <strong>Force HTTPS</strong> in Netlify’s domain settings once the certificate has been issued. Without it your site is still reachable over plain <code>http://</code>, and browsers increasingly make that look alarming.</p>
+</section>
+<section id="updating-it-from-then-on" class="level3">
+<h3 class="anchored" data-anchor-id="updating-it-from-then-on">Updating it from then on</h3>
+<p>Once that’s set up, publishing a change is three commands:</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb9"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a><span class="ex">quarto</span> render</span>
+<span id="cb9-2"><a href="#cb9-2" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> add <span class="at">-A</span> <span class="kw">&amp;&amp;</span> <span class="fu">git</span> commit <span class="at">-m</span> <span class="st">"Update site"</span></span>
+<span id="cb9-3"><a href="#cb9-3" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> push</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<p>Netlify picks up the push and redeploys in about a minute. The first line is the one to remember: Netlify serves whatever is in <code>_site/</code>, so skipping the render pushes your previous build and nothing will tell you that’s what happened.</p>
+</section>
+</section>
+<section id="reuse" class="level2">
+<h2 class="anchored" data-anchor-id="reuse">Reuse</h2>
+<p>The code is MIT licensed and the content is CC BY 4.0, so take whatever’s useful. You don’t <em>need</em> to credit me for the code, though I’d be glad to hear about it on <a href="https://www.linkedin.com/in/dsquintana/">LinkedIn</a> or <a href="https://bsky.app/profile/dsquintana.bsky.social">Bluesky</a> if you build something with it.</p>
 
 
+</section>
 
 
-<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
-<div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="d2Vic2l0ZSUyQ3F1YXJ0bw==" data-listing-date-sort="1784930400000" data-listing-file-modified-sort="1785013443523" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="8" data-listing-word-count-sort="1420">
-<div class="thumbnail"><a href="./posts/quarto-academic-site/index.html" class="no-external">
+<div id="quarto-appendix" class="default"><section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes"><h2 class="anchored quarto-appendix-heading">Footnotes</h2>
 
-<img loading="lazy" src="./posts/quarto-academic-site/card.png" class="thumbnail-image">
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/quarto-academic-site/index.html" class="no-external">How to create a simple academic website</a>
-</h3>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('d2Vic2l0ZQ=='); return false;">website</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('cXVhcnRv'); return false;">quarto</div>
-
-</div>
-<div class="delink listing-description"><a href="./posts/quarto-academic-site/index.html" class="no-external">
-<p>How I built this website, and how you can build something similar. A key feature is that this approach can keep your publication list current via Zotero and it’s easy to attach open data and code links to papers in your publication list.</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="./posts/quarto-academic-site/index.html" class="no-external">
-<div class="listing-date">
-Jul 25, 2026
-</div>
-<div class="listing-author">
-Daniel S. Quintana
-</div>
-</a>
-</div>
-</div>
-</div>
-<div class="listing-no-matching d-none">No matching items</div>
-</div></main> <!-- /main -->
+<ol>
+<li id="fn1"><p>To do this, in Zotero create a collection that only contains your publications, select all of them, right-click, then select ‘Export items’ (choose BibTeX as the format)<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+</ol>
+</section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     // Ensure there is a toggle, if there isn't float one in the top right
@@ -882,5 +942,5 @@ Daniel S. Quintana
 
 
 
-<script src="site_libs/quarto-html/zenscroll-min.js"></script>
+<script src="../../site_libs/quarto-html/zenscroll-min.js"></script>
 </body></html>

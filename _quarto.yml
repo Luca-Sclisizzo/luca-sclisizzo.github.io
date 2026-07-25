@@ -9,13 +9,6 @@ project:
     - "!README.md"
     - "!LICENSE-CONTENT.md"
     - "!NOTES.md"
-    # DRAFT — not published. `draft: true` in the post's front matter keeps it out
-    # of the listing, RSS, search and sitemap, but Quarto still writes the HTML,
-    # so the URL stays reachable. This exclusion is what actually withholds it.
-    # The post is also gitignored, so it isn't readable on GitHub either.
-    # To publish: delete this line, remove the matching entry from .gitignore,
-    # and remove `draft: true` from the post's front matter.
-    - "!posts/quarto-academic-site/**"
   resources:
     # Referenced only from styles.css, so Quarto can't discover it on its own.
     - ORCID-iD_icon_BW_vector.svg

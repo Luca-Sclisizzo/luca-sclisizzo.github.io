@@ -20,11 +20,11 @@ osf_presentations.xlsx
 # Private working notes.
 NOTES.md
 
-# Unpublished draft post — kept out of the repo so it isn't readable on GitHub.
-# To publish it, three things must change together:
-#   1. delete this line
-#   2. delete the matching "!posts/..." exclusion in _quarto.yml
-#   3. remove `draft: true` from the post's front matter
-posts/quarto-academic-site/
+# Rendering a post on its own (e.g. `quarto render posts/foo/index.qmd` to
+# preview a draft) writes its output beside the source rather than into _site/.
+# Those are build artifacts, not source.
+posts/**/*_files/
+posts/**/index.html
+
 
 **/*.quarto_ipynb
