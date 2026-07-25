@@ -9,7 +9,12 @@
 <link>https://dsquintana.com/blog.html</link>
 <atom:link href="https://dsquintana.com/blog.xml" rel="self" type="application/rss+xml"/>
 <description>Academic homepage of Daniel S. Quintana — research, workshops, and software.</description>
+<image>
+<url>https://dsquintana.com/profile.jpg</url>
+<title>Daniel S. Quintana</title>
+<link>https://dsquintana.com/blog.html</link>
+</image>
 <generator>quarto-1.9.38</generator>
-<lastBuildDate>Sat, 25 Jul 2026 18:24:24 GMT</lastBuildDate>
+<lastBuildDate>Sat, 25 Jul 2026 20:26:19 GMT</lastBuildDate>
 </channel>
 </rss>

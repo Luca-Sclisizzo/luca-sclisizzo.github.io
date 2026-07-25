@@ -27,6 +27,16 @@ website:
   # full of URLs that redirect. On this site the apex is primary and www
   # redirects to it — the reverse of the previous Hugo site.
   site-url: "https://dsquintana.com"
+  # Link preview cards on Bluesky, LinkedIn, Slack, Mastodon etc. Both need
+  # site-url set above — without it the image path can't be made absolute, and
+  # scrapers ignore relative ones.
+  open-graph: true
+  twitter-card:
+    # "summary" is the small square card, which suits a square headshot.
+    # summary_large_image needs a wide ~1200x630 image; feeding it a square one
+    # gets it centre-cropped, which lops the top and bottom off a face.
+    card-style: summary
+  image: profile.jpg
   navbar:
     left:
       - href: index.qmd
