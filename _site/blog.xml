@@ -6,10 +6,10 @@
       version="2.0">
 <channel>
 <title>Daniel S. Quintana</title>
-<link>https://dsquintana.com/blog.html</link>
-<atom:link href="https://dsquintana.com/blog.xml" rel="self" type="application/rss+xml"/>
+<link>https://www.dsquintana.com/blog.html</link>
+<atom:link href="https://www.dsquintana.com/blog.xml" rel="self" type="application/rss+xml"/>
 <description>Academic homepage of Daniel S. Quintana — research, workshops, and software.</description>
 <generator>quarto-1.9.38</generator>
-<lastBuildDate>Sat, 25 Jul 2026 17:44:26 GMT</lastBuildDate>
+<lastBuildDate>Sat, 25 Jul 2026 18:19:23 GMT</lastBuildDate>
 </channel>
 </rss>

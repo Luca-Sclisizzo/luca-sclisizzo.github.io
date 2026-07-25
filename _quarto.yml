@@ -23,7 +23,9 @@ project:
 website:
   title: "Daniel S. Quintana"
   description: "Academic homepage of Daniel S. Quintana — research, workshops, and software."
-  site-url: "https://dsquintana.com"
+  # Must match Netlify's *primary* domain. The apex 301-redirects to www, so
+  # using the apex here would put redirecting URLs in the sitemap and RSS feed.
+  site-url: "https://www.dsquintana.com"
   navbar:
     left:
       - href: index.qmd

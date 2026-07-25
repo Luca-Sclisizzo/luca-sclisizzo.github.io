@@ -906,7 +906,7 @@ Kemp, A. H., Quintana, D. S., Gray, M. A., Felmingham, K. L., Brown, K., &amp; G
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp("https:\/\/dsquintana\.com");
+        var filterRegex = new RegExp("https:\/\/www\.dsquintana\.com");
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }
