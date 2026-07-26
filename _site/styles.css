@@ -100,6 +100,32 @@ main h2 {
   filter: invert(1);
 }
 
+/* Below Bootstrap's lg breakpoint Quarto stacks the about-page link buttons one
+   per row at full width. With seven of them that is a ~490px column, which
+   pushes the bio off a phone screen entirely. Lay them out as wrapping chips
+   instead. Desktop (992px and up) keeps Quarto's own layout untouched. */
+@media (max-width: 991.98px) {
+  /* The selector has to be this long. Quarto's own rule is
+     `div.quarto-about-trestles .about-entity .about-links`, specificity (0,3,1),
+     so a shorter selector loses no matter what order the files load in. */
+  div.quarto-about-trestles .about-entity .about-links {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    column-gap: 0.45rem;
+    row-gap: 0.45rem;
+    padding-bottom: 1em;
+  }
+
+  div.quarto-about-trestles .about-entity .about-links .about-link {
+    width: auto;
+    padding: 0.3em 0.7em;
+    font-size: 0.85rem;
+  }
+}
+
 /* Open data / code / preregistration links, from links.csv. */
 .pub-badge {
   display: inline-block;
