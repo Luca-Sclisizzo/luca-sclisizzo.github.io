@@ -300,13 +300,12 @@ main h2 {
 }
 
 /* ============================================
-   Custom About page
+   About page
    ============================================ */
-
 .about-container {
   display: grid;
-  grid-template-columns: 0.8fr 1.6fr;
-  gap: 4rem;
+  grid-template-columns: 280px minmax(0, 1fr);
+  gap: 3.5rem;
   align-items: start;
   max-width: 1000px;
   margin: 0 auto;
@@ -315,52 +314,30 @@ main h2 {
 .about-photos {
   display: flex;
   flex-direction: column;
-  gap: 1.5rem;
+  gap: 1.25rem;
 }
 
 .about-photo {
   display: block;
   width: 100%;
+  max-width: 100%;
   height: auto;
   border-radius: 12px;
 }
 
 .about-text {
+  min-width: 0;
   line-height: 1.7;
 }
 
 
-/* ============================================
-   Tablet
-   ============================================ */
-
-@media (max-width: 900px) {
+/* Mobile */
+@media (max-width: 991.98px) {
 
   .about-container {
-    grid-template-columns: 1fr;
-    gap: 2.5rem;
-  }
-
-  .about-photos {
-    display: grid;
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-    gap: 1rem;
-    max-width: 650px;
-    margin: 0 auto;
-  }
-
-}
-
-
-/* ============================================
-   Phone
-   ============================================ */
-
-@media (max-width: 600px) {
-
-  .about-container {
-    display: block;
+    display: block !important;
     width: 100%;
+    max-width: none;
     margin: 0;
   }
 
@@ -368,17 +345,19 @@ main h2 {
     display: grid;
     grid-template-columns: repeat(2, minmax(0, 1fr));
     gap: 0.75rem;
+    width: 100%;
     margin-bottom: 2rem;
   }
 
   .about-photo {
     width: 100%;
-    border-radius: 10px;
+    max-width: 100%;
   }
 
   .about-text {
-    font-size: 0.98rem;
-    line-height: 1.65;
+    display: block;
+    width: 100%;
+    max-width: none;
+    min-width: 0;
   }
-
 }
