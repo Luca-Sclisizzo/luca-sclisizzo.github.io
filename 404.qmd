@@ -1,14 +1,14 @@
----
-title: "Page not found"
----
+# Page not found
 
-That page doesn't exist — it may have moved, or the link may be out of date.
+The page you are looking for does not exist or may have been moved.
 
-- [Home](index.qmd)
-- [Publications](publications.qmd) — full list, with data and code links
-- [Software & Data](software.qmd)
-- [Workshops](workshops.qmd)
-- [CV](cv.qmd)
+You can return to the [homepage](index.qmd) or explore the main sections of my website:
 
-If you followed a link from somewhere else and think it should work,
-[let me know](mailto:daniel.quintana@psykologi.uio.no).
+- **Publications** — research articles, preprints, and related resources
+- **Talks & Conferences** — presentations, invited talks, and conference activities
+- **Unpublished** — ongoing projects, exploratory analyses, and research notes
+- **Software** — open-source tools, packages, and computational resources
+- **About** — me outside of research
+- **CV** — academic curriculum and professional experience
+
+If you reached this page through a broken link, please feel free to let me know.

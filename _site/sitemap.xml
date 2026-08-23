@@ -1,35 +1,63 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://dsquintana.com/workshops.html</loc>
-    <lastmod>2026-07-20T19:27:57.665Z</lastmod>
+    <loc>https://dsquintana.com/unpublished.html</loc>
+    <lastmod>2026-07-27T20:38:54.525Z</lastmod>
   </url>
   <url>
     <loc>https://dsquintana.com/software.html</loc>
-    <lastmod>2026-07-25T12:03:11.169Z</lastmod>
-  </url>
-  <url>
-    <loc>https://dsquintana.com/posts/quarto-academic-site/index.html</loc>
-    <lastmod>2026-07-25T21:04:03.523Z</lastmod>
-  </url>
-  <url>
-    <loc>https://dsquintana.com/cv.html</loc>
-    <lastmod>2026-07-25T11:59:17.056Z</lastmod>
-  </url>
-  <url>
-    <loc>https://dsquintana.com/blog.html</loc>
-    <lastmod>2026-07-25T17:35:06.156Z</lastmod>
+    <lastmod>2026-07-27T20:21:38.141Z</lastmod>
   </url>
   <url>
     <loc>https://dsquintana.com/index.html</loc>
-    <lastmod>2026-07-25T17:07:25.814Z</lastmod>
+    <lastmod>2026-07-27T19:56:38.793Z</lastmod>
+  </url>
+  <url>
+    <loc>https://dsquintana.com/about.html</loc>
+    <lastmod>2026-07-27T20:03:11.573Z</lastmod>
+  </url>
+  <url>
+    <loc>https://dsquintana.com/cv.html</loc>
+    <lastmod>2026-07-27T19:35:23.845Z</lastmod>
   </url>
   <url>
     <loc>https://dsquintana.com/publications.html</loc>
-    <lastmod>2026-07-25T17:08:36.880Z</lastmod>
+    <lastmod>2026-07-27T19:35:23.847Z</lastmod>
   </url>
   <url>
     <loc>https://dsquintana.com/talks.html</loc>
-    <lastmod>2026-07-25T17:05:03.291Z</lastmod>
+    <lastmod>2026-07-27T19:35:23.847Z</lastmod>
+  </url>
+  <url>
+    <loc>https://lsclisizzo.com/index.html</loc>
+    <lastmod>2026-08-23T09:14:06.406Z</lastmod>
+  </url>
+  <url>
+    <loc>https://lsclisizzo.com/about.html</loc>
+    <lastmod>2026-08-23T08:53:02.734Z</lastmod>
+  </url>
+  <url>
+    <loc>https://lsclisizzo.com/software.html</loc>
+    <lastmod>2026-08-23T07:20:28.000Z</lastmod>
+  </url>
+  <url>
+    <loc>https://lsclisizzo.com/unpublished.html</loc>
+    <lastmod>2026-08-23T07:20:28.000Z</lastmod>
+  </url>
+  <url>
+    <loc>https://lsclisizzo.com/talks.html</loc>
+    <lastmod>2026-08-23T07:20:28.000Z</lastmod>
+  </url>
+  <url>
+    <loc>https://lsclisizzo.com/publications.html</loc>
+    <lastmod>2026-08-23T07:20:28.000Z</lastmod>
+  </url>
+  <url>
+    <loc>https://lsclisizzo.com/cv.html</loc>
+    <lastmod>2026-08-23T07:20:28.000Z</lastmod>
+  </url>
+  <url>
+    <loc>https://lsclisizzo.com/unpublished-projects.html</loc>
+    <lastmod>2026-08-23T07:20:28.000Z</lastmod>
   </url>
 </urlset>

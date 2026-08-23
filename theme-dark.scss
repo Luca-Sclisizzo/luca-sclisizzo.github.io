@@ -1,44 +1,128 @@
-/*-- scss:defaults --*/
+/* Newsreader — a serif built specifically for on-screen reading, so
+   headings keep some character without the display-serif quirks (swashy
+   ampersand, ornate lowercase) Fraunces was showing at any optical size. */
+@import url('https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,500..650&display=swap');
 
+/*-- scss:defaults --*/
 $font-family-sans-serif: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif !default;
+$font-family-serif: "Newsreader", Georgia, "Times New Roman", serif !default;
+$font-family-monospace: "JetBrains Mono", "Fira Code", ui-monospace, Menlo, Consolas, monospace !default;
 $font-size-root: 17px;
 $line-height-base: 1.65;
 
-$primary:      #56b6e0;
+/* Two-color signature: a cool computational teal for data/links, and the
+   existing code-orange promoted to a proper "amber" accent — biology's own
+   color, used sparingly for eyebrows and small emphasis moments. */
+$primary:      #4fc7d6;
+$accent-warm:  #e0a45c;
 $body-color:   #d7dde3;
-$body-bg:      #14181c;
+$body-bg:      #12151a;
 $link-color:   $primary;
-
-$headings-font-weight: 650;
-$navbar-bg: #14181c;
+$headings-font-family: $font-family-serif;
+$headings-font-weight: 600;
+$headings-color: #f5f7f9;
+$navbar-bg: #12151a;
 $navbar-fg: #d7dde3;
-$footer-bg: #14181c;
+$footer-bg: #12151a;
+$border-color: rgba(255, 255, 255, 0.12);
+$code-bg: #1c2126;
+$code-color: $accent-warm;
 
 /*-- scss:rules --*/
-
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
 .navbar {
   border-bottom: 1px solid rgba(255, 255, 255, 0.10);
 }
-
 /* Darkly dims inactive nav links too far to read comfortably. */
 .navbar .navbar-nav .nav-link {
   color: rgba(215, 221, 227, 0.82);
-
+  transition: color 0.15s ease;
   &:hover,
   &:focus {
     color: #ffffff;
   }
-
   &.active {
     color: $primary;
   }
 }
-
 .nav-footer {
   border-top: 1px solid rgba(255, 255, 255, 0.10);
+  color: rgba(215, 221, 227, 0.6);
 }
-
 .card,
 .about-entity .about-link {
   border-color: rgba(255, 255, 255, 0.14);
+}
+a {
+  text-decoration: none;
+  &:hover {
+    text-decoration: underline;
+    text-underline-offset: 3px;
+  }
+}
+code {
+  background-color: $code-bg;
+  border-radius: 4px;
+  padding: 0.15em 0.4em;
+}
+
+/* --- About page photos --- */
+.about-container {
+  display: flex;
+  align-items: flex-start;
+  gap: 40px;
+}
+.about-photos {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  flex-shrink: 0;
+}
+.about-photo {
+  width: 260px;
+  height: 260px;
+  object-fit: cover;
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.10);
+}
+.about-text {
+  flex: 1;
+}
+
+/* --- Inline highlight span, see /about.qmd --- */
+.highlight {
+  color: $primary;
+  font-weight: 600;
+  text-decoration: none;
+  pointer-events: none;
+}
+
+/* --- Homepage hero (index.qmd) ---
+   A small mono "locus label" above the name, with a hairline tick-rule
+   underneath — a quiet nod to a genomic coverage track rather than a
+   literal illustration. Restrained enough to read as texture, not motif. */
+.hero-eyebrow {
+  display: block;
+  font-family: $font-family-monospace;
+  font-size: 0.78rem;
+  font-weight: 500;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: $accent-warm;
+  margin-bottom: 0.9rem;
+}
+.hero-eyebrow::after {
+  content: "";
+  display: block;
+  width: 3.4rem;
+  height: 2px;
+  margin-top: 0.6rem;
+  background: repeating-linear-gradient(
+    90deg,
+    $primary 0, $primary 3px,
+    transparent 3px, transparent 6px
+  );
 }

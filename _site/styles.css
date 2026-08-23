@@ -1,5 +1,18 @@
 /* Shared tweaks that apply in both light and dark mode. */
 
+/* Accessibility baseline: visible keyboard focus, and respect for users
+   who've asked the OS for reduced motion. */
+:focus-visible {
+  outline: 2px solid var(--bs-primary);
+  outline-offset: 2px;
+}
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    transition-duration: 0.001ms !important;
+    animation-duration: 0.001ms !important;
+  }
+}
+
 h1, h2, h3 {
   letter-spacing: -0.015em;
 }
@@ -21,16 +34,6 @@ main h2 {
   padding-left: 0;
 }
 
-.pub-list li {
-  margin-bottom: 1.4rem;
-  padding-left: 1rem;
-  border-left: 3px solid rgba(128, 128, 128, 0.3);
-}
-
-.pub-list li:hover {
-  border-left-color: var(--bs-primary);
-}
-
 .pub-title {
   font-weight: 600;
 }
@@ -50,11 +53,12 @@ main h2 {
   text-decoration: underline;
 }
 
-/* Year headers inside listings. */
+/* Year headers inside listings, and CV entry dates (see .cv-entry below). */
 .year-label {
   font-variant-numeric: tabular-nums;
   opacity: 0.6;
   font-size: 0.9em;
+  white-space: nowrap;
 }
 
 /* Year groupings in the generated publication list. */
@@ -92,7 +96,7 @@ main h2 {
   height: 1.05em;
   vertical-align: -0.18em;
   margin-right: 0.35em;
-  background: url("ORCID-iD_icon_BW_vector.svg") center / contain no-repeat;
+  background: url("icons/ORCID-iD_icon_BW_vector.svg") center / contain no-repeat;
 }
 
 /* The black disc would vanish against the dark theme; invert to white-on-black. */
@@ -139,6 +143,7 @@ main h2 {
   color: var(--bs-primary);
   text-decoration: none;
   white-space: nowrap;
+  transition: background-color 0.15s ease, color 0.15s ease;
 }
 
 .pub-badge:hover,
@@ -148,38 +153,20 @@ main h2 {
   text-decoration: none;
 }
 
-/* Featured papers on the home page. */
-.featured p {
-  padding-left: 1rem;
-  border-left: 3px solid rgba(128, 128, 128, 0.3);
-  margin-bottom: 1.3rem;
-}
-
-.featured p:hover {
-  border-left-color: var(--bs-primary);
-}
-
 .featured-links {
   font-size: 0.85em;
   white-space: nowrap;
 }
 
-/* Talks list — same left-rule treatment as the featured papers on the home page,
-   so the two read as one system. */
-.talks h3 {
+/* Year-heading rhythm, shared by the talks list and the citeproc-generated
+   year groups on the Publications page (render_by_year() in bibtools.R
+   emits plain "### <year>" headings — wrap that output in
+   .pub-year-groups to pick this up). */
+.talks h3,
+.pub-year-groups h3 {
   font-variant-numeric: tabular-nums;
   margin-top: 2rem;
   margin-bottom: 0.9rem;
-}
-
-.talks p {
-  padding-left: 1rem;
-  border-left: 3px solid rgba(128, 128, 128, 0.3);
-  margin-bottom: 1.1rem;
-}
-
-.talks p:hover {
-  border-left-color: var(--bs-primary);
 }
 
 .talk-links {
@@ -190,4 +177,124 @@ main h2 {
 /* Tighter about-page image. */
 .about-image {
   border-radius: 50%;
+}
+
+/* Shared "rule card" treatment: pub list items, featured papers, talks,
+   the homepage research-interests list, and CV entries. Same left-rule +
+   hover-to-primary pattern everywhere — unified so changing the look means
+   editing one block, not five. */
+.pub-list li,
+.featured p,
+.talks p,
+.research-list li,
+.cv-entry {
+  padding-left: 1rem;
+  border-left: 3px solid rgba(128, 128, 128, 0.3);
+  transition: border-left-color 0.15s ease;
+}
+
+.pub-list li,
+.featured p {
+  margin-bottom: 1.3rem;
+}
+
+.talks p {
+  margin-bottom: 1.1rem;
+}
+
+.research-list ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.research-list li {
+  margin-bottom: 0.9rem;
+}
+
+/* --- CV entries (cv.qmd) ---
+   Two columns: role/institution on the left, a tabular-nums date on the
+   right — the classic CV shape, built from the same rule-card the rest of
+   the site already uses instead of a one-off table. */
+.cv-entry {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 1.5rem;
+  margin-bottom: 1.2rem;
+}
+
+.cv-entry-body {
+  flex: 1 1 auto;
+}
+
+.cv-entry .year-label {
+  flex-shrink: 0;
+}
+
+/* :focus-within, not just :hover — these blocks contain links, so keyboard
+   users tabbing to a link inside should get the same affordance as a mouse
+   hover, not silence. */
+.pub-list li:hover,
+.pub-list li:focus-within,
+.featured p:hover,
+.featured p:focus-within,
+.talks p:hover,
+.talks p:focus-within,
+.research-list li:hover,
+.research-list li:focus-within,
+.cv-entry:hover,
+.cv-entry:focus-within {
+  border-left-color: var(--bs-primary);
+}
+/* Color-scheme toggle icon override — swap Bootstrap Icons' sun/moon
+   for Lucide's outline versions, which read cleaner against the site's
+   thin-border, geometric style. Rendered as a mask so it inherits
+   currentColor and needs no separate light/dark rule. */
+.quarto-color-scheme-toggle .bi::before {
+  content: "";
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  background-color: currentColor;
+  -webkit-mask: var(--toggle-icon) center / contain no-repeat;
+  mask: var(--toggle-icon) center / contain no-repeat;
+}
+/* Correct selectors: Quarto toggles via the .alternate class on the <a>,
+   not via bi-sun-fill/bi-moon-stars-fill classes on the <i>. Quarto's own
+   rule sets background-image directly (bi-toggle-off/on), so we must kill
+   that and paint our own icon via mask + currentColor instead. !important
+   is needed because Quarto's compiled selector includes `.navbar`, giving
+   it higher specificity than ours. */
+.navbar .quarto-color-scheme-toggle .bi::before {
+  background-image: none !important;
+  background-color: currentColor;
+  -webkit-mask: var(--toggle-icon) center / contain no-repeat;
+  mask: var(--toggle-icon) center / contain no-repeat;
+}
+
+.navbar .quarto-color-scheme-toggle:not(.alternate) .bi::before {
+  --toggle-icon: url("icons/sun.svg");
+}
+
+.navbar .quarto-color-scheme-toggle.alternate .bi::before {
+  --toggle-icon: url("icons/moon.svg");
+}
+/* ============================================
+   Search box (Algolia Autocomplete) — minimal
+   restyle matching the site's aesthetic.
+   ============================================ */
+
+#quarto-search {
+  --aa-primary-color-rgb: 79, 199, 214; /* dark theme $primary — see note below for light */
+  --aa-muted-color-rgb: 128, 128, 128;
+  --aa-panel-border-radius: 10px;
+  --aa-input-border-radius: 8px;
+  --aa-panel-shadow: 0 8px 24px rgba(0, 0, 0, 0.18);
+}
+
+/* --- Magnifying-glass button in the navbar --- */
+
+.navbar .aa-SubmitIcon {
+  width: 20px !important;
+  height: 20px !important;
 }

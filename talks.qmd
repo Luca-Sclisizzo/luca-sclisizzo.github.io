@@ -1,226 +1,44 @@
 ---
-title: "Talks"
+title: "Talks & Conferences"
 ---
 
-I post the slides for my talks on OSF, see below for links to talk slides and resources.
+This page contains a list of talks, presentations, and conferences
+highlighting my research activities, academic contributions, and
+scientific interests. Abstracts and slides are available on my OSF
+page, with links provided after the corresponding presentations.
 
 ::: {.talks}
+
+## Conference Presentations
+
 ### 2026
 
-**Recalibrating human oxytocin research: from methods to function to theory**<br>
-Harvard Interdisciplinary Oxytocin Research Initiative · Online
-[[Slides](https://osf.io/3dmj6/)]{.talk-links}
+**Dissecting the spectrum of psychosis: leveraging time and
+dimensionality to explore multiple, functionally separable sources of
+genetic risk**\
+*Behavior Genetics Association (BGA) Annual Meeting* · Amsterdam,
+Netherlands\
+**Role:** Symposium Chair & Speaker\
+**Symposium:** *Genes and Time: A Dive Into the Temporal Dynamics of
+Human Phenotypes*\
+**Discussant:** Michael C. Neale\
+[Abstract](https://osf.io/2u534){.pub-badge target="_blank" rel="noopener"}
+[Slides](https://osf.io/3yku2){.pub-badge target="_blank" rel="noopener"}
 
-**Social media for academics**<br>
-NMBU · In-person
-[[Slides](https://osf.io/epjb9/)]{.talk-links}
+## Conferences & Workshops
 
-### 2025
+### 2024
 
-**Open science intro for psychology master students**<br>
-University of Oslo · In-person
-[[Slides](https://osf.io/ypfbv/)]{.talk-links}
+**Evolutionary Psychiatry and Genetics Conference**\
+Ettore Majorana Foundation · Erice, Italy\
+Intensive course *"Towards a New Science of Mental Disorders: Bridging
+Evolution and Genetics"*, connecting evolutionary psychiatry,
+psychopathology, behavioral genetics, and genomics.
 
-**Start-up scholar workshop**<br>
-University of Oslo · In-person
-[[Slides](https://osf.io/ctf67/)]{.talk-links}
-
-**Synthetic data workshop**<br>
-University of Oslo · In-person
-[[Slides](https://osf.io/extcm/)]{.talk-links}
-
-### 2023
-
-**Disseminating research using podcasts**<br>
-University of Oslo · In-person
-[[Slides](https://osf.io/bqar7/)]{.talk-links}
-
-**Princeton meta-analysis**<br>
-Princeton University · Online
-[[Slides](https://osf.io/zpbmk/)]{.talk-links}
-
-### 2022
-
-**Accelerating the translation of intranasal oxytocin treatment**<br>
-Erice · In-person
-[[Slides](https://osf.io/w58he/)]{.talk-links}
-
-**Accelerating the translation of intranasal oxytocin treatment**<br>
-ISPNE meeting · In-person
-[[Slides](https://osf.io/ucj6d/)]{.talk-links}
-
-**An introduction to the Norwegian Reproducibility Network**<br>
-University of Oslo · In-person
-[[Slides](https://osf.io/3u4be/)]{.talk-links}
-
-**Building a researcher identity in Norway**<br>
-University of Oslo · In-person
-[[Slides](https://osf.io/smrze/)]{.talk-links}
-
-**Five things about open science that every researcher should know**<br>
-RIOTS club Norway · Online
-[[Slides](https://osf.io/pdbmf/)]{.talk-links}
-
-**Five things about open science that every researcher should know**<br>
-University of Oslo · In-person
-[[Slides](https://osf.io/h5kbu/)]{.talk-links}
-
-**How open science can boost your career**<br>
-University of Oslo · In-person
-[[Slides](https://osf.io/j9qdk/)]{.talk-links}
-
-**How preprints can benefit both science and your career**<br>
-University of Oslo · In-person
-[[Slides](https://osf.io/ubq6n/)]{.talk-links}
-
-**Increasing the credibility of meta-analysis**<br>
-University of Glasgow · Online
-[[Slides](https://osf.io/4zuqw/)]{.talk-links}
-
-**Meta-analysis: From preregistration to publication**<br>
-University of Heidelberg · Online
-[[Slides](https://osf.io/xq29d/)]{.talk-links}
-
-**Preregistration talk and workshop**<br>
-Ruhr University Bochum · Online
-[[Slides](https://osf.io/ep3bd/)]{.talk-links}
-
-**Reproducible research and science communication workshop**<br>
-University of Oslo · In-person
-[[Slides](https://osf.io/e3hvp/)]{.talk-links}
-
-**Reproducible science workshop**<br>
-University of Marburg · Online
-[[Slides](https://osf.io/3kcs4/)]{.talk-links}
-
-**Social media dissemination**<br>
-University of Oslo · In-person
-[[Slides](https://osf.io/vbyj6/)]{.talk-links}
-
-**Synthetic data workshop**<br>
-University of Oslo · In-person
-[[Slides](https://osf.io/z7k4w/)]{.talk-links}
-
-**Transparent meta-analysis**<br>
-University of Marburg · Online
-[[Slides](https://osf.io/8s2qm/)]{.talk-links}
-
-### 2021
-
-**Applying open science practices to clinical research**<br>
-Open Science Initiative Luebeck · Online
-[[Slides](https://osf.io/5cdzg/)]{.talk-links}
-
-**Calculating the statistical power of studies included in a meta-analysis using the {metameta} R package**<br>
-Oslo Use R group · Online
-[[Slides](https://osf.io/nwuj4/)]{.talk-links}
-
-**Power analysis: Why, how and when?**<br>
-Student Initiative for Open Science (SIOS) community · Online
-[[Slides](https://osf.io/uk5bp/)]{.talk-links}
-
-**Rethinking oxytocin's role in cognition and behaviour**<br>
-University of Vienna · Online
-[[Slides](https://osf.io/jwz6y/)]{.talk-links}
-
-**Social media for academics**<br>
-Research Council Of Norway · In-person
-[[Slides](https://osf.io/aw9s8/)]{.talk-links}
-
-**Testing and adjusting for publication bias in meta-analysis using JASP and R**<br>
-Online screencast · Online
-[[Slides](https://osf.io/hkgt8/)]{.talk-links}
-
-**Twitter for academics: Practical tips for writing threads**<br>
-Online screencast · Online
-[[Slides](https://osf.io/7fnhu/)]{.talk-links}
-
-### 2020
-
-**Five things about open and reproducible science that every early career researcher should know**<br>
-University of Oslo · In-person
-[[Slides](https://osf.io/dztvq/)]{.talk-links}
-
-**From the lab to the living room: Adjusting to a new way of working**<br>
-Online screencast · Online
-[[Slides](https://osf.io/5m4kw/)]{.talk-links}
-
-**Home office tips and tricks**<br>
-Swedish National Junior Faculty · Online
-[[Slides](https://osf.io/fc8ex/)]{.talk-links}
-
-**How to use Bayes factors and equivalence tests to better understand non-significant p-values**<br>
-Online screencast · Online
-[[Slides](https://osf.io/zhqut/)]{.talk-links}
-
-**Improving the credibility of meta-analysis**<br>
-Animal Behavior Society virtual meeting · Online
-[[Slides](https://osf.io/tkxsj/)]{.talk-links}
-
-**Improving your data visualizations**<br>
-Online screencast · Online
-[[Slides](https://osf.io/nsbpx/)]{.talk-links}
-
-**Social media for academics**<br>
-University of Mannheim · Online
-[[Slides](https://osf.io/8ehzs/)]{.talk-links}
-
-**Synthetic data**<br>
-RIOT Science Club · Online
-[[Slides](https://osf.io/emjtk/)]{.talk-links}
-
-**Transparent meta-analysis**<br>
-(in)credible research conference · Online
-[[Slides](https://osf.io/c7abk/)]{.talk-links}
-
-**Using social media and podcasts to boost your academic career**<br>
-Online screencast · Online
-[[Slides](https://osf.io/7v5fb/)]{.talk-links}
-
-**Using Twitter for science: why and how**<br>
-Online screencast · Online
-[[Slides](https://osf.io/z4wx5/)]{.talk-links}
-
-### 2019
-
-**Heart rate variability: physiology, methodology and experimental possibilities**<br>
-University of Oslo · In-person
-[[Slides](https://osf.io/y6zmt/)]{.talk-links}
-
-**Identifying central targets for intranasal oxytocin administration and the optimal dose**<br>
-Radboud University · In-person
-[[Slides](https://osf.io/wy27e/)]{.talk-links}
-
-**Open access**<br>
-Norwegian PhD School of Pharmacy (NFIF) · Online
-[[Slides](https://osf.io/r2q5t/)]{.talk-links}
-
-**Oxytocin gene expression in the human brain**<br>
-SANS annual meeting · In-person
-[[Slides](https://osf.io/q7a4w/)]{.talk-links}
-
-**Oxytocin's modulatory effects on social cognition**<br>
-University of Copenhagen · In-person
-[[Slides](https://osf.io/6nv8j/)]{.talk-links}
-
-**Using equivalence tests to revisit non-significant effects in the published literature: An example using intranasal oxytocin studies**<br>
-PuG conference · In-person
-[[Slides](https://osf.io/tv63m/)]{.talk-links}
-
-**Using open science practices to get fast feedback on your research**<br>
-"Doing Good" symposium · In-person
-[[Slides](https://osf.io/6gb94/)]{.talk-links}
-
-### 2018
-
-**Using heart rate variability to estimate the outflow of the autonomic nervous system: Applications for the biobehavioral sciences**<br>
-Leiden University · In-person
-[[Slides](https://osf.io/2576v/)]{.talk-links}
-
-### 2017
-
-**Improving your PowerPoint presentations**<br>
-University of Oslo · In-person
-[[Slides](https://osf.io/y8xfa/)]{.talk-links}
+**21st European Conference on Personality (ECP21)**\
+Berlin, Germany\
+Participant at the biennial conference on personality psychology,
+including innovative assessment methods, genetic and biological
+personality, and AI-based approaches.
 
 :::

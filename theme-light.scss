@@ -1,25 +1,122 @@
-/*-- scss:defaults --*/
+/* Newsreader — a serif built specifically for on-screen reading, so
+   headings keep some character without the display-serif quirks (swashy
+   ampersand, ornate lowercase) Fraunces was showing at any optical size.
+   Same face as theme-dark.scss so the site reads as one system in either
+   mode. */
+@import url('https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,500..650&display=swap');
 
+/*-- scss:defaults --*/
 $font-family-sans-serif: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif !default;
+$font-family-serif: "Newsreader", Georgia, "Times New Roman", serif !default;
+$font-family-monospace: "JetBrains Mono", "Fira Code", ui-monospace, Menlo, Consolas, monospace !default;
 $font-size-root: 17px;
 $line-height-base: 1.65;
 
-$primary:      #0b6e99;
+/* Same two-color family as theme-dark.scss (teal + amber), darkened here
+   so both read as AA-contrast text/links on a white background instead of
+   just a lighter copy of the dark palette. */
+$primary:      #0e7c8c;
+$accent-warm:  #a35b0e;
 $body-color:   #1f2328;
 $body-bg:      #ffffff;
 $link-color:   $primary;
-
-$headings-font-weight: 650;
+$headings-font-family: $font-family-serif;
+$headings-font-weight: 600;
+$headings-color: #0d1117;
 $navbar-bg: #ffffff;
 $navbar-fg: #1f2328;
 $footer-bg: #ffffff;
+$border-color: rgba(0, 0, 0, 0.08);
+$code-bg: #f4f6f8;
+$code-color: $accent-warm;
 
 /*-- scss:rules --*/
-
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
 .navbar {
   border-bottom: 1px solid rgba(0, 0, 0, 0.08);
 }
-
+.navbar .navbar-nav .nav-link {
+  transition: color 0.15s ease;
+  &.active {
+    color: $primary;
+  }
+}
 .nav-footer {
   border-top: 1px solid rgba(0, 0, 0, 0.08);
+  color: rgba(31, 35, 40, 0.6);
+}
+.card,
+.about-entity .about-link {
+  border-color: rgba(0, 0, 0, 0.08);
+}
+a {
+  text-decoration: none;
+  &:hover {
+    text-decoration: underline;
+    text-underline-offset: 3px;
+  }
+}
+code {
+  background-color: $code-bg;
+  color: $code-color;
+  border-radius: 4px;
+  padding: 0.15em 0.4em;
+}
+/* --- About page photos --- */
+.about-container {
+  display: flex;
+  align-items: flex-start;
+  gap: 40px;
+}
+.about-photos {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  flex-shrink: 0;
+}
+.about-photo {
+  width: 260px;
+  height: 260px;
+  object-fit: cover;
+  border-radius: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.08);
+}
+.about-text {
+  flex: 1;
+}
+/* --- Inline highlight span, see /about.qmd --- */
+.highlight {
+  color: $primary;
+  font-weight: 600;
+  text-decoration: none;
+  pointer-events: none;
+}
+
+/* --- Homepage hero (index.qmd) --- same mono eyebrow + tick-rule as
+   theme-dark.scss; colors already come from $primary/$accent-warm so no
+   contrast tuning needed beyond what's set above. */
+.hero-eyebrow {
+  display: block;
+  font-family: $font-family-monospace;
+  font-size: 0.78rem;
+  font-weight: 500;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: $accent-warm;
+  margin-bottom: 0.9rem;
+}
+.hero-eyebrow::after {
+  content: "";
+  display: block;
+  width: 3.4rem;
+  height: 2px;
+  margin-top: 0.6rem;
+  background: repeating-linear-gradient(
+    90deg,
+    $primary 0, $primary 3px,
+    transparent 3px, transparent 6px
+  );
 }

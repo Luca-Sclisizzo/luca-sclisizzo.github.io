@@ -2,74 +2,60 @@
 title: "CV"
 ---
 
-Professor of Psychology at the University of Oslo, working on oxytocin
-signalling, cardiac psychophysiology, evidence synthesis, and meta-science.
+M.Sc. student in Applied Psychology at the University of Trieste, interested
+in understanding the biological mechanisms underlying human behaviour and
+psychiatric traits using computational approaches at the intersection
+between statistical genetics and biological psychiatry.
 
 ## Education
 
-**PhD, Psychology** · School of Psychology, University of Sydney, Australia · 2010–2013
+::: {.cv-entry}
+::: {.cv-entry-body}
+**Master of Psychology**\
+Department of Life Sciences, University of Trieste, Italy
+:::
+[2024–Ongoing]{.year-label}
+:::
 
-**Bachelor of Psychology (Honours)** · Department of Psychology, Macquarie University, Australia · 2003–2007
+::: {.cv-entry}
+::: {.cv-entry-body}
+**Bachelor of Psychology (Honours)**\
+Department of Life Sciences, University of Trieste, Italy
+:::
+[2021–2024]{.year-label}
+:::
 
 ## Positions
 
-**Professor** (100%) · Department of Psychology, University of Oslo, Norway · 2025–
-
-**Senior Researcher** (20%) · Oslo University Hospital, Norway · 2021–
-
-**Associate Professor** (100%) · Department of Psychology, University of Oslo, Norway · 2023–2025
-
-**Senior Researcher** (100%) · Department of Psychology, University of Oslo, Norway · 2016–2023
-
-**Postdoctoral Research Fellow** · University of Oslo, Norway · 2014–2016
-
-**Clinical trial coordinator and research associate** · University of Sydney, Australia · 2008–2014
+::: {.cv-entry}
+::: {.cv-entry-body}
+**Visiting Scholar** (100%)\
+Department of Psychiatry, Washington University School of Medicine,
+St. Louis, Missouri USA
+:::
+[2025]{.year-label}
+:::
 
 ## Awards and prizes
 
-- **The Fridtjof Nansen award for young scientists in medicine and the natural sciences**, Nansen Foundation (2024)
-- **Clarivate Web of Science Highly Cited Researcher award** (2020, 2021, 2022, 2023, 2024, 2025)
-- **University of Oslo Prize for Young Researchers** (2022)
-- **Dirk Hellhammer Award**, International Society for Psychoneuroendocrinology (2022)
-- **Award for Young Researchers — The I.K. Lykkes Prize**, Royal Norwegian Society of Sciences and Letters (2021)
-- **Science dissemination prize (social media)**, Department of Psychology, University of Oslo (2021)
-- **Rafaelsen Young Investigators Award**, International College of Neuropsychopharmacology (2016)
-- **H. Tasman Lovell Memorial Medallion** for best thesis in psychology, University of Sydney (2013)
+::: {.cv-entry}
+::: {.cv-entry-body}
+**BGA Annual Meeting Travel Award**\
+Behavior Genetics Association
+:::
+[2026]{.year-label}
+:::
 
-## Grants
+## Full CV
 
-All as Principal Investigator.
+For a detailed overview of my academic background, publications,
+presentations, and research activities:
 
-**South-Eastern Norway Regional Health Authority** — Open Project Support · 2022–2025<br>
-*Uncovering the role of oxytocin in neural plasticity and learning in autism.*
-NOK 9,000,000.
-
-**Research Council of Norway** — Researcher Project for Scientific Renewal · 2021–2026<br>
-*Unravelling the role of oxytocin in behavioural flexibility.*
-NOK 12,000,000.
-
-**Kavli Trust** — Programme on Health Research · 2021–2025<br>
-*Oxytocin as a support for youth with autism.*
-NOK 5,075,000.
-
-**Research Council of Norway** — FRIPRO Young Research Talents · 2020–2024<br>
-*Deciphering the role of the oxytocin system in mental traits and physical health.*
-NOK 7,990,000.
-
-**Novo Nordisk Foundation** — Excellence Project for Young Researchers within Endocrinology · 2016–2021<br>
-*Investigating oxytocin system dysfunction as a common link between metabolic and
-psychiatric symptoms in severe mental illness.*
-DKK 5,000,000.
-
-## Editorial boards
-
-- *Communications Psychology*
-- *Advances in Methods and Practices in Psychological Science*
-- *Psychoneuroendocrinology*
+[Download full CV →](files/CV_Sclisizzo.html){.pub-badge target="_blank" rel="noopener"}
 
 ## Profiles
 
-[Google Scholar](https://scholar.google.com.au/citations?user=3BsdBosAAAAJ&hl=en&inst=4058163445224007304) ·
-[ORCID](https://orcid.org/0000-0003-2876-0004) ·
-[OSF](https://osf.io/user/8e3md) ·
-[GitHub](https://github.com/dsquintana)
+[Google Scholar](??){.pub-badge}
+[ORCID](https://orcid.org/0009-0001-2757-4261){.pub-badge}
+[OSF](https://osf.io/j6e4s/){.pub-badge}
+[GitHub](https://github.com/Luca-Sclisizzo){.pub-badge}

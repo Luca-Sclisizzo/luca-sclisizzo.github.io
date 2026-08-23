@@ -14,12 +14,12 @@ project:
     - ORCID-iD_icon_BW_vector.svg
 
 website:
-  title: "Daniel S. Quintana"
-  description: "Academic homepage of Daniel S. Quintana — research, workshops, and software."
+  title: "Luca Sclisizzo"
+  description: "Academic homepage of Luca Sclisizzo — research, contact, and software."
   # Must match Netlify's *primary* domain, or the sitemap and RSS feed will be
   # full of URLs that redirect. On this site the apex is primary and www
   # redirects to it — the reverse of the previous Hugo site.
-  site-url: "https://dsquintana.com"
+  site-url: "https://lsclisizzo.com"
   # Link preview cards on Bluesky, LinkedIn, Slack, Mastodon etc. Both need
   # site-url set above — without it the image path can't be made absolute, and
   # scrapers ignore relative ones.
@@ -29,7 +29,7 @@ website:
     # summary_large_image needs a wide ~1200x630 image; feeding it a square one
     # gets it centre-cropped, which lops the top and bottom off a face.
     card-style: summary
-  image: profile.jpg
+  image: files/profile.jpg
   navbar:
     left:
       - href: index.qmd
@@ -37,22 +37,22 @@ website:
       - href: publications.qmd
         text: Publications
       - href: talks.qmd
-        text: Talks
-      - href: workshops.qmd
-        text: Workshops
+        text: Talks & Conferences
+      - href: unpublished.qmd
+        text: Unpublished
       - href: software.qmd
-        text: Software & Data
-      - href: blog.qmd
-        text: Blog
+        text: Software
+      - href: about.qmd
+        text: About
       - href: cv.qmd
         text: CV
     right:
       - icon: envelope
-        href: mailto:daniel.quintana@psykologi.uio.no
+        href: mailto:luca.sclisizzo@gmail.com
         aria-label: Email
   page-footer:
-    left: "© 2026 Daniel S. Quintana"
-    right: "Built with [Quarto](https://quarto.org)"
+    left: "© 2026 Luca Sclisizzo"
+    right: "Built with [Quarto](https://quarto.org) | Template by [D.S. Quintana](https://dsquintana.com)"
   reader-mode: false
 
 format:

@@ -18,7 +18,8 @@ List of publications.pdf
 osf_presentations.xlsx
 
 # Private working notes.
-NOTES.md
+TODO.md
+README.md
 
 # Rendering a post on its own (e.g. `quarto render posts/foo/index.qmd` to
 # preview a draft) writes its output beside the source rather than into _site/.
