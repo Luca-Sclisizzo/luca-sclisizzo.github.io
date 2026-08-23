@@ -27,7 +27,7 @@ and beyond.
   [GitHub Repository](https://github.com/Luca-Sclisizzo/AcademiCV.git){.pub-badge target="_blank" rel="noopener"}
 :::
 
-## Data and code
+## Data and Code
 
 Data, analysis scripts, and preregistrations for individual papers are linked
 directly from each entry on the [Publications](publications.qmd) page, so they sit
