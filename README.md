@@ -41,6 +41,13 @@ quarto render
 git add -A && git commit -m "Update site"
 git push
 ```
+Or run `./deploy.sh`, which does the same three commands in one shot.
+If it does not work, it is likely due to missing execute permissions.
+In that case, run:
+
+```bash
+chmod +x deploy.sh
+```
 
 Render before pushing. The workflow deploys whatever `_site/` contains at push time, so an unrendered push deploys the previous build.
 
@@ -66,8 +73,9 @@ The labelled links after each reference come from `links.csv`, not from the bibl
 
 ``` csv
 citekey,label,url
-Quintana2023,Data & code,https://osf.io/dr64q/
-Quintana2023,Web app,https://dsquintana.shinyapps.io/metameta_app/
+Smith2024,Data & code,https://osf.io/xxxxx/
+Smith2024,Preregistration,https://osf.io/yyyyy/
+Doe2023,Preprint,https://doi.org/10.1000/example
 ```
 
 | Column | Meaning |
