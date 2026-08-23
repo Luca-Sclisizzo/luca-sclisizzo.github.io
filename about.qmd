@@ -22,10 +22,11 @@ My long-term goal is to [bridge clinical and psychological knowledge
 with quantitative genomic models]{.highlight} — using genome-wide
 association studies, polygenic models, and predictive approaches to
 better understand individual differences in behaviour and mental
-health. I'm particularly drawn to [Bayesian modelling, omics data, and
-machine learning]{.highlight} as tools for capturing this complexity.
+health. I'm also interested in [Bayesian modelling, omics data, and
+machine learning]{.highlight} as complementary tools for capturing
+this complexity.
 
-I also love meeting people from different backgrounds — I believe the best 
+I love meeting people from different backgrounds — I believe the best 
 insights often emerge when different fields come together to approach the same
 question from multiple perspectives.
 
