@@ -21,11 +21,11 @@
     "text": "Packages\n\n\nAcademiCV\nSemi-automatic template for generating academic CVs. Built with JavaScript and Node.js, AcademiCV converts structured data into professionally formatted Microsoft Word and HTML documents, simplifying the maintenance, versioning, and publication of academic records. Version 2.0.0 introduced HTML output for web-based CV publishing, while version 2.1.0 added optional automatic synchronization with Quarto websites, enabling seamless updates of online academic profiles.\ngit clone https://github.com/Luca-Sclisizzo/AcademiCV.git\ncd AcademiCV\nnpm install\nGitHub Repository"
   },
   {
-    "objectID": "software.html#data-and-code",
-    "href": "software.html#data-and-code",
+    "objectID": "software.html#data-code",
+    "href": "software.html#data-code",
     "title": "Software & Data",
-    "section": "Data and Code",
-    "text": "Data and Code\nData, analysis scripts, and preregistrations for individual papers are linked directly from each entry on the Publications page, so they sit next to the study they belong to rather than in a separate index."
+    "section": "Data & Code",
+    "text": "Data & Code\nData, analysis scripts, and preregistrations for individual papers are linked directly from each entry on the Publications page, so they sit next to the study they belong to rather than in a separate index."
   },
   {
     "objectID": "index.html",
