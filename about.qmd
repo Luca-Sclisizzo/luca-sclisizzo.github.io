@@ -15,8 +15,7 @@ title: "About Me"
 I'm an [M.Sc. student in Applied Psychology]{.highlight} at the
 University of Trieste, working at the intersection of [statistical
 genomics, computational modelling, and psychology]{.highlight} to
-understand the biological mechanisms underlying complex psychiatric
-traits.
+understand the biological mechanisms underlying complex traits.
 
 My long-term goal is to [bridge clinical and psychological knowledge
 with quantitative genomic models]{.highlight} — using genome-wide
