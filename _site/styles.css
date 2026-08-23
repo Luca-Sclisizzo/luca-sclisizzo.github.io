@@ -327,34 +327,26 @@ main h2 {
   min-width: 0;
 }
 
-
-/* ============================================
-   MOBILE
-   Photos first, text underneath
-   ============================================ */
-
-@media screen and (max-width: 600px) {
-
-  .about-container {
-    display: flex !important;
-    flex-direction: column !important;
-  }
-
-  .about-text {
-    order: 1;
-    width: 100% !important;
-  }
-
-  .about-photos {
-    order: 2;
-    width: 100% !important;
-    margin-top: 2rem;
-  }
-
-  .about-photo {
-    width: 100% !important;
-    max-width: 100% !important;
-    height: auto;
-  }
-
+/* ============================================ 
+   MOBILE: Text first and then photes underneath
+   ============================================ */  
+@media screen and (max-width: 600px) {    
+  .about-container {     
+    display: flex;     
+    flex-direction: column;   
+  }    
+  
+  .about-text {     
+    width: 100%;   
+  }    
+  
+  .about-photos {     
+    width: 100%;     
+    margin-top: 2rem; /* Spazio tra testo e foto */
+  }    
+  
+  .about-photo {     
+    width: 100%;     
+    height: auto;   
+  }  
 }
