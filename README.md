@@ -1,21 +1,23 @@
-------------------------------------------------------------------------
-
-editor: markdown: wrap: 72 ---
+---
+editor: markdown
+wrap: 72
+---
 
 # Personal academic website
 
 A Quarto website whose publication list is generated from a Zotero BibTeX export, with per-paper links to data, code, preregistrations, preprints, and open-access versions.
 
-Live at <https://dsquintana.com>.
+Live at <https://luca-sclisizzo.github.io>.
+Template taken from <https://dsquintana.com>
 
 ## Requirements
 
 - [Quarto](https://quarto.org)
 - R, with the `knitr` package
 
-Quarto also ships bundled with RStudio. If it isn't on the PATH, either open `website.Rproj` in RStudio and use **Build → Render Website**, or add it:
+Quarto also ships bundled with RStudio. If it isn't on the PATH, either open the project in RStudio and use **Build → Render Website**, or add it:
 
-``` sh
+```sh
 export PATH="/Applications/RStudio.app/Contents/Resources/app/quarto/bin:$PATH"
 ```
 
