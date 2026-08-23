@@ -14,6 +14,6 @@ and ongoing investigations developed as part of my research activities.
   transcriptomic datasets. The paper-style final report, complete
   codebase, and supporting materials are available below.
 
-  [Paper-Style Report](https://luca-sclisizzo.github.io/RNA-seq_dynamic_expression/Bayesian_Statistics_project.html){.pub-badge target="_blank" rel="noopener"}
+  [Paper-Style Report](files/Bayesian_Statistics_project.html){.pub-badge target="_blank" rel="noopener"}
   [Transcriptomic GitHub Repo](https://github.com/Luca-Sclisizzo/RNA-seq_dynamic_expression){.pub-badge target="_blank" rel="noopener"}
 :::
