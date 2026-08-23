@@ -7,8 +7,7 @@ wrap: 72
 
 A Quarto website whose publication list is generated from a Zotero BibTeX export, with per-paper links to data, code, preregistrations, preprints, and open-access versions.
 
-Live at <https://luca-sclisizzo.github.io>.
-Template taken from <https://dsquintana.com>
+Live at <https://luca-sclisizzo.github.io>. Template taken from <https://dsquintana.com>
 
 ## Requirements
 
@@ -17,7 +16,7 @@ Template taken from <https://dsquintana.com>
 
 Quarto also ships bundled with RStudio. If it isn't on the PATH, either open the project in RStudio and use **Build → Render Website**, or add it:
 
-```sh
+``` sh
 export PATH="/Applications/RStudio.app/Contents/Resources/app/quarto/bin:$PATH"
 ```
 
@@ -33,9 +32,9 @@ Run `quarto render` and `quarto preview` one at a time. Running both concurrentl
 
 ## Deploying
 
-Netlify builds from this repository with **no build command** and a publish directory of `_site`.
+The site is served by GitHub Pages, published by a GitHub Actions workflow that triggers on every push to `main`/`master`. The workflow doesn't render anything itself — it just uploads the already-committed `_site/` folder as a Pages artifact (`actions/upload-pages-artifact`) and publishes it (`actions/deploy-pages`).
 
-Netlify's build image does not include R, and `publications.qmd` renders through knitr, so the site is built locally and the rendered output committed. This is why `_site/` is tracked rather than ignored.
+GitHub's Actions runners don't include R either, and `publications.qmd` renders through knitr, so — same constraint as before — the site is built locally and the rendered output committed. This is why `_site/` is tracked rather than ignored.
 
 ``` sh
 quarto render
@@ -43,7 +42,7 @@ git add -A && git commit -m "Update site"
 git push
 ```
 
-Render before pushing. Netlify serves whatever `_site/` contains, so an unrendered push deploys the previous build.
+Render before pushing. The workflow deploys whatever `_site/` contains at push time, so an unrendered push deploys the previous build.
 
 ## The publication list
 
@@ -98,16 +97,18 @@ Update the `citekey` in that row to the paper's current key.
 | Path | Purpose |
 |----|----|
 | `*.qmd` | Site pages |
-| `posts/` | Blog posts, one folder each |
 | `_quarto.yml` | Site configuration: navbar, theme, metadata |
+| `.github/workflows/` | GitHub Actions workflow that publishes `_site/` to GitHub Pages on push |
 | `bibtools.R` | Publication list generation |
 | `publications.bib` | Zotero export |
 | `links.csv` | Per-paper data, code, and preprint links |
 | `apa.csl` | APA 7th citation style, from the CSL styles repository |
 | `styles.css`, `theme-light.scss`, `theme-dark.scss` | Styling |
+| `files/` | Static files served as-is — images, plus `files/CV_Sclisizzo.html` and `files/Bayesian-RNA_seq-trajectories.html` linked from `cv.qmd` |
+| `icons/` | Icon assets referenced from `styles.css` (e.g. the ORCID mark) |
 | `_site/` | Rendered output, committed for deployment |
 
-`ORCID-iD_icon_BW_vector.svg` is referenced from `styles.css` rather than from any page, so it is declared under `resources:` in `_quarto.yml` to ensure it is published.
+`ORCID-iD_icon_BW_vector.svg` (in `icons/`) is referenced from `styles.css` rather than from any page, so it is declared under `resources:` in `_quarto.yml` to ensure it is published.
 
 ## Licence
 
