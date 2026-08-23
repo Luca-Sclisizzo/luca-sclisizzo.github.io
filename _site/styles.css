@@ -327,26 +327,23 @@ main h2 {
   min-width: 0;
 }
 
-/* ============================================ 
-   MOBILE: Text first and then photes underneath
-   ============================================ */  
 @media screen and (max-width: 600px) {    
   .about-container {     
-    display: flex;     
-    flex-direction: column;   
+    display: flex !important;     
+    flex-direction: column !important;   
   }    
   
   .about-text {     
-    width: 100%;   
+    width: 100% !important;   
   }    
   
   .about-photos {     
-    width: 100%;     
-    margin-top: 2rem; /* Spazio tra testo e foto */
+    width: 100% !important;     
+    margin-top: 2rem !important;
   }    
   
   .about-photo {     
-    width: 100%;     
-    height: auto;   
+    width: 100% !important;     
+    height: auto !important;   
   }  
 }
