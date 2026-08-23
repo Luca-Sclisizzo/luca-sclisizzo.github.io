@@ -58,8 +58,8 @@ website:
 format:
   html:
     theme:
-      light: [cosmo, theme-light.scss]
       dark: [darkly, theme-dark.scss]
+      light: [cosmo, theme-light.scss]
     css: styles.css
     toc: false
     smooth-scroll: true
