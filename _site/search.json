@@ -7,13 +7,6 @@
     "text": "This page presents unpublished research projects, exploratory analyses, and ongoing investigations developed as part of my research activities.\n\n\nSpatioTemporal Transcriptome Trajectories\nA Bayesian hierarchical approach to modelling developmental gene expression trajectories, using the BrainSpan / PsychENCODE transcriptomic datasets. The paper-style final report, complete codebase, and supporting materials are available below.\nPaper-Style Report Transcriptomic GitHub Repo"
   },
   {
-    "objectID": "unpublished.html#projects",
-    "href": "unpublished.html#projects",
-    "title": "Unpublished Projects",
-    "section": "Projects",
-    "text": "Projects\n\nSpatioTemporal Transcriptome Trajectories\nThis project explored a Bayesian hierarchical approach to model developmental gene expression trajectories using the BrainSpan / PsychENCODE transcriptomic datasets. The paper-style final report, complete codebase, and supporting materials are available through the links below.\nPaper-Style Report · Transcriptomic GitHub Repo"
-  },
-  {
     "objectID": "software.html",
     "href": "software.html",
     "title": "Software & Data",
@@ -49,11 +42,11 @@
     "text": "Research Interests\n\n\nPsychiatric genomics — psychosis, neurodevelopment\nStatistical genomics for complex traits\nBayesian hierarchical modelling of biological trajectories\nLongitudinal genetic models of development\n\n\nAbout → CV →"
   },
   {
-    "objectID": "index.html#featured-papers",
-    "href": "index.html#featured-papers",
-    "title": "Luca Sclisizzo",
-    "section": "Featured papers",
-    "text": "Featured papers\n\nGenetic pathways linking oxytocin-vasotocin hypothalamic subunit architecture with psychiatric and metabolic traits Sartorius et al., Molecular Psychiatry (2026) Estimating the genetic overlap between hypothalamic structure and the psychiatric and metabolic conditions that so often co-occur. Preprint\nImproving the precision of intranasal oxytocin research Winterton, Westlye, Steen, Andreassen, & Quintana, Nature Human Behaviour (2021) Why better delivery methodology alone won’t fix the field: stringent methods need a robust theory of what oxytocin does to ask meaningful questions of it. Preprint\nOxytocin pathway gene networks in the human brain Quintana et al., Nature Communications (2019) Voxel-by-voxel expression maps of OXT, OXTR, and CD38 across the human brain, compared against 20,737 genes to identify putative pathway interactions. Open access · Code\n\nAll publications →"
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About Me",
+    "section": "",
+    "text": "I’m an M.Sc. student in Applied Psychology at the University of Trieste, working at the intersection of statistical genomics, computational modelling, and psychology to understand the biological mechanisms underlying complex psychiatric traits.\nMy long-term goal is to bridge clinical and psychological knowledge with quantitative genomic models — using genome-wide association studies, polygenic models, and predictive approaches to better understand individual differences in behaviour and mental health. I’m particularly drawn to Bayesian modelling, omics data, and machine learning as tools for capturing this complexity.\nI also love meeting people from different backgrounds — I believe the best insights often emerge when different fields come together to approach the same question from multiple perspectives.\nOutside academia, I enjoy spending time in nature, particularly hiking and exploring mountain environments. And yes, the moustache? It started as a bet, but somehow it has become part of my identity. So, if you ever see a moustache climbing up a mountain, do not hesitate to say hello — it is probably me!"
   },
   {
     "objectID": "cv.html",
@@ -84,18 +77,11 @@
     "text": "Awards and prizes\n\n\nBGA Annual Meeting Travel Award\nBehavior Genetics Association\n\n2026"
   },
   {
-    "objectID": "cv.html#grants",
-    "href": "cv.html#grants",
+    "objectID": "cv.html#full-cv",
+    "href": "cv.html#full-cv",
     "title": "CV",
-    "section": "Grants",
-    "text": "Grants\nAll as Principal Investigator.\nSouth-Eastern Norway Regional Health Authority — Open Project Support · 2022–2025 Uncovering the role of oxytocin in neural plasticity and learning in autism. NOK 9,000,000.\nResearch Council of Norway — Researcher Project for Scientific Renewal · 2021–2026 Unravelling the role of oxytocin in behavioural flexibility. NOK 12,000,000.\nKavli Trust — Programme on Health Research · 2021–2025 Oxytocin as a support for youth with autism. NOK 5,075,000.\nResearch Council of Norway — FRIPRO Young Research Talents · 2020–2024 Deciphering the role of the oxytocin system in mental traits and physical health. NOK 7,990,000.\nNovo Nordisk Foundation — Excellence Project for Young Researchers within Endocrinology · 2016–2021 Investigating oxytocin system dysfunction as a common link between metabolic and psychiatric symptoms in severe mental illness. DKK 5,000,000."
-  },
-  {
-    "objectID": "cv.html#editorial-boards",
-    "href": "cv.html#editorial-boards",
-    "title": "CV",
-    "section": "Editorial boards",
-    "text": "Editorial boards\n\nCommunications Psychology\nAdvances in Methods and Practices in Psychological Science\nPsychoneuroendocrinology"
+    "section": "Full CV",
+    "text": "Full CV\nFor a detailed overview of my academic background, publications, presentations, and research activities:\nDownload full CV →"
   },
   {
     "objectID": "cv.html#profiles",
@@ -119,55 +105,6 @@
     "text": "This page contains a list of talks, presentations, and conferences highlighting my research activities, academic contributions, and scientific interests. Abstracts and slides are available on my OSF page, with links provided after the corresponding presentations."
   },
   {
-    "objectID": "talks.html#talks-presentations",
-    "href": "talks.html#talks-presentations",
-    "title": "Talks & Conferences",
-    "section": "Talks & Presentations",
-    "text": "Talks & Presentations\n\n2026\nDissecting the spectrum of psychosis: leveraging time and dimensionality to explore multiple, functionally separable sources of genetic risk\nBehavior Genetics Association (BGA) Annual Meeting · Amsterdam, Netherlands\nRole: Symposium Chair & Speaker\nSymposium: Genes and Time: A Dive Into the Temporal Dynamics of Human Phenotypes\nDiscussant: Michael C. Neale\nAbstract · Slides"
-  },
-  {
-    "objectID": "talks.html#conferences-courses",
-    "href": "talks.html#conferences-courses",
-    "title": "Talks & Conferences",
-    "section": "Conferences & Courses",
-    "text": "Conferences & Courses\n\n2024\nEvolutionary Psychiatry and Genetics Conference\nEttore Majorana Foundation · Erice, Italy\nIntensive course “Towards a New Science of Mental Disorders: Bridging Evolution and Genetics”, connecting evolutionary psychiatry, psychopathology, behavioral genetics, and genomics.\n21st European Conference on Personality (ECP21)\nBerlin, Germany\nParticipant at the biennial conference on personality psychology, including innovative assessment methods, genetic and biological personality, and AI-based approaches."
-  },
-  {
-    "objectID": "index.html#research-vision",
-    "href": "index.html#research-vision",
-    "title": "Luca Sclisizzo",
-    "section": "Research Vision",
-    "text": "Research Vision\nMy long-term goal is to use computational and statistical approaches to better understand the biological mechanisms underlying complex psychiatric traits. I am particularly interested in integrating statistical genomics, longitudinal modelling, and Bayesian approaches to characterize individual differences and biological trajectories over time."
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About Me",
-    "section": "",
-    "text": "I’m an M.Sc. student in Applied Psychology at the University of Trieste, working at the intersection of statistical genomics, computational modelling, and psychology to understand the biological mechanisms underlying complex psychiatric traits.\nMy long-term goal is to bridge clinical and psychological knowledge with quantitative genomic models — using genome-wide association studies, polygenic models, and predictive approaches to better understand individual differences in behaviour and mental health. I’m particularly drawn to Bayesian modelling, omics data, and machine learning as tools for capturing this complexity.\nI also love meeting people from different backgrounds — I believe the best insights often emerge when different fields come together to approach the same question from multiple perspectives.\nOutside academia, I enjoy spending time in nature, particularly hiking and exploring mountain environments. And yes, the moustache? It started as a bet, but somehow it has become part of my identity. So, if you ever see a moustache climbing up a mountain, do not hesitate to say hello — it is probably me!"
-  },
-  {
-    "objectID": "cv.html#full-cv",
-    "href": "cv.html#full-cv",
-    "title": "CV",
-    "section": "Full CV",
-    "text": "Full CV\nFor a detailed overview of my academic background, publications, presentations, and research activities:\nDownload full CV →"
-  },
-  {
-    "objectID": "index.html#hi-im-luca.",
-    "href": "index.html#hi-im-luca.",
-    "title": "Luca Sclisizzo",
-    "section": "",
-    "text": "I’m an M.Sc. student in Applied Psychology at the University of Trieste. I am interested in statistics, and behavioral genetics. To further develop my research and computational skills, I joined the Behavior, Environment, and Genetics Lab at Washington University in St. Louis (MO, USA). There, I worked on the genomics of psychosis and temporal transcriptomic modelling using Bayesian approaches.\nRICORDATI DI AGGIUNGEre IL LINK A SCHOLAR, SIA NELLA HOME CHE IN CV!!! CAMBIA I FEATUREd PAPERS"
-  },
-  {
-    "objectID": "index.html#hi-im-luca",
-    "href": "index.html#hi-im-luca",
-    "title": "Luca Sclisizzo",
-    "section": "",
-    "text": "M.Sc. student in Applied Psychology at the University of Trieste, working on the intersection of statistical genomics and computational psychiatry.\nI spent time at the Behavior, Environment, and Genetics Lab (WashU St. Louis), working on the genomics of psychosis and Bayesian transcriptomic modelling."
-  },
-  {
     "objectID": "talks.html#conference-presentations",
     "href": "talks.html#conference-presentations",
     "title": "Talks & Conferences",
@@ -175,38 +112,10 @@
     "text": "Conference Presentations\n\n2026\nDissecting the spectrum of psychosis: leveraging time and dimensionality to explore multiple, functionally separable sources of genetic risk\nBehavior Genetics Association (BGA) Annual Meeting · Amsterdam, Netherlands\nRole: Symposium Chair & Speaker\nSymposium: Genes and Time: A Dive Into the Temporal Dynamics of Human Phenotypes\nDiscussant: Michael C. Neale\nAbstract Slides"
   },
   {
-    "objectID": "talks.html#conferences-and-workshops",
-    "href": "talks.html#conferences-and-workshops",
-    "title": "Talks & Conferences",
-    "section": "Conferences and Workshops",
-    "text": "Conferences and Workshops\n\n2024\nEvolutionary Psychiatry and Genetics Conference\nEttore Majorana Foundation · Erice, Italy\nIntensive course “Towards a New Science of Mental Disorders: Bridging Evolution and Genetics”, connecting evolutionary psychiatry, psychopathology, behavioral genetics, and genomics.\n21st European Conference on Personality (ECP21)\nBerlin, Germany\nParticipant at the biennial conference on personality psychology, including innovative assessment methods, genetic and biological personality, and AI-based approaches."
-  },
-  {
     "objectID": "talks.html#conferences-workshops",
     "href": "talks.html#conferences-workshops",
     "title": "Talks & Conferences",
     "section": "Conferences & Workshops",
     "text": "Conferences & Workshops\n\n2024\nEvolutionary Psychiatry and Genetics Conference\nEttore Majorana Foundation · Erice, Italy\nIntensive course “Towards a New Science of Mental Disorders: Bridging Evolution and Genetics”, connecting evolutionary psychiatry, psychopathology, behavioral genetics, and genomics.\n21st European Conference on Personality (ECP21)\nBerlin, Germany\nParticipant at the biennial conference on personality psychology, including innovative assessment methods, genetic and biological personality, and AI-based approaches."
-  },
-  {
-    "objectID": "unpublished.html#spatiotemporal-transcriptome-trajectories",
-    "href": "unpublished.html#spatiotemporal-transcriptome-trajectories",
-    "title": "Unpublished Projects",
-    "section": "SpatioTemporal Transcriptome Trajectories",
-    "text": "SpatioTemporal Transcriptome Trajectories\nThis project explored a Bayesian hierarchical approach to model developmental gene expression trajectories using the BrainSpan / PsychENCODE transcriptomic datasets. The paper-style final report, complete codebase, and supporting materials are available through the links below.\nPaper-Style Report · Transcriptomic GitHub Repo"
-  },
-  {
-    "objectID": "cv.html#awards",
-    "href": "cv.html#awards",
-    "title": "CV",
-    "section": "Awards",
-    "text": "Awards\n\n\nBGA Annual Meeting Travel Award\nBehavior Genetics Association\n\n2026"
-  },
-  {
-    "objectID": "unpublished-projects.html",
-    "href": "unpublished-projects.html",
-    "title": "Unpublished Projects",
-    "section": "",
-    "text": "This page presents unpublished research projects, exploratory analyses, and ongoing investigations developed as part of my research activities.\n\n\nSpatioTemporal Transcriptome Trajectories\nA Bayesian hierarchical approach to modelling developmental gene expression trajectories, using the BrainSpan / PsychENCODE transcriptomic datasets. The paper-style final report, complete codebase, and supporting materials are available below.\nPaper-Style Report Transcriptomic GitHub Repo"
   }
 ]

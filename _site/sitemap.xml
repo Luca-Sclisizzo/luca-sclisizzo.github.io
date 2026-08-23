@@ -1,32 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://dsquintana.com/unpublished.html</loc>
-    <lastmod>2026-07-27T20:38:54.525Z</lastmod>
+    <loc>https://lsclisizzo.com/unpublished.html</loc>
+    <lastmod>2026-08-23T07:20:28.000Z</lastmod>
   </url>
   <url>
-    <loc>https://dsquintana.com/software.html</loc>
-    <lastmod>2026-07-27T20:21:38.141Z</lastmod>
-  </url>
-  <url>
-    <loc>https://dsquintana.com/index.html</loc>
-    <lastmod>2026-07-27T19:56:38.793Z</lastmod>
-  </url>
-  <url>
-    <loc>https://dsquintana.com/about.html</loc>
-    <lastmod>2026-07-27T20:03:11.573Z</lastmod>
-  </url>
-  <url>
-    <loc>https://dsquintana.com/cv.html</loc>
-    <lastmod>2026-07-27T19:35:23.845Z</lastmod>
-  </url>
-  <url>
-    <loc>https://dsquintana.com/publications.html</loc>
-    <lastmod>2026-07-27T19:35:23.847Z</lastmod>
-  </url>
-  <url>
-    <loc>https://dsquintana.com/talks.html</loc>
-    <lastmod>2026-07-27T19:35:23.847Z</lastmod>
+    <loc>https://lsclisizzo.com/software.html</loc>
+    <lastmod>2026-08-23T07:20:28.000Z</lastmod>
   </url>
   <url>
     <loc>https://lsclisizzo.com/index.html</loc>
@@ -37,15 +17,7 @@
     <lastmod>2026-08-23T08:53:02.734Z</lastmod>
   </url>
   <url>
-    <loc>https://lsclisizzo.com/software.html</loc>
-    <lastmod>2026-08-23T07:20:28.000Z</lastmod>
-  </url>
-  <url>
-    <loc>https://lsclisizzo.com/unpublished.html</loc>
-    <lastmod>2026-08-23T07:20:28.000Z</lastmod>
-  </url>
-  <url>
-    <loc>https://lsclisizzo.com/talks.html</loc>
+    <loc>https://lsclisizzo.com/cv.html</loc>
     <lastmod>2026-08-23T07:20:28.000Z</lastmod>
   </url>
   <url>
@@ -53,11 +25,7 @@
     <lastmod>2026-08-23T07:20:28.000Z</lastmod>
   </url>
   <url>
-    <loc>https://lsclisizzo.com/cv.html</loc>
-    <lastmod>2026-08-23T07:20:28.000Z</lastmod>
-  </url>
-  <url>
-    <loc>https://lsclisizzo.com/unpublished-projects.html</loc>
+    <loc>https://lsclisizzo.com/talks.html</loc>
     <lastmod>2026-08-23T07:20:28.000Z</lastmod>
   </url>
 </urlset>
