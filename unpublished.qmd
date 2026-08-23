@@ -5,6 +5,8 @@ title: "Unpublished Projects"
 This page presents unpublished research projects, exploratory analyses,
 and ongoing investigations developed as part of my research activities.
 
+## Research Projects
+
 ::: {.pub-list}
 - **SpatioTemporal Transcriptome Trajectories**\
   A Bayesian hierarchical approach to modelling developmental gene
