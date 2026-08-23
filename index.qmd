@@ -33,7 +33,7 @@ editor:
 ---
 
 ::: {.hero-eyebrow}
-Genomics × Psychology × Bayesian Modelling
+Genomics × Psychology × Statistics
 :::
 
 # Hi, I'm Luca 👋
