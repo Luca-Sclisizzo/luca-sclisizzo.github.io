@@ -360,3 +360,22 @@ main h2 {
     height: auto !important;
   }
 }
+/* ============================================
+   404 page (404.qmd)
+   ============================================ */
+
+.notfound {
+  max-width: 30rem;
+  margin: 3rem auto 2rem;
+  text-align: center;
+}
+
+.notfound-icon {
+  width: 130px;
+  height: auto;
+  margin-bottom: 0.5rem;
+}
+
+.notfound .pub-badge {
+  margin: 0.3em 0.35em 0 0;
+}

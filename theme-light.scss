@@ -31,6 +31,12 @@ $code-bg: #f4f6f8;
 $code-color: $accent-warm;
 
 /*-- scss:rules --*/
+/* Bootstrap already exposes $primary as --bs-primary automatically;
+   $accent-warm has no built-in equivalent, so expose it ourselves for
+   shared markup (styles.css, inline SVGs) to reference. */
+:root {
+  --accent-warm: #{$accent-warm};
+}
 body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;

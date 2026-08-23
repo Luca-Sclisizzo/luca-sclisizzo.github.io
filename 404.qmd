@@ -1,14 +1,43 @@
-# Page not found
+---
+title: "Page Not Found"
+---
 
-The page you are looking for does not exist or may have been moved.
+::: {.notfound}
 
-You can return to the [homepage](index.qmd) or explore the main sections of my website:
+```{=html}
+<svg class="notfound-icon" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="A small line-art unicorn, looking a little lost">
+  <!-- mane -->
+  <path d="M148 95 L165 85 M146 112 L163 105 M140 128 L155 123"
+        stroke="var(--accent-warm)" stroke-width="4" stroke-linecap="round" fill="none"/>
+  <!-- horn -->
+  <path d="M100 25 L88 66 L112 66 Z" fill="var(--accent-warm)"/>
+  <!-- ears -->
+  <path d="M75 78 L66 55 L84 72 Z" fill="none" stroke="var(--bs-primary)" stroke-width="3" stroke-linejoin="round"/>
+  <path d="M125 78 L134 55 L116 72 Z" fill="none" stroke="var(--bs-primary)" stroke-width="3" stroke-linejoin="round"/>
+  <!-- head -->
+  <circle cx="100" cy="120" r="55" fill="none" stroke="var(--bs-primary)" stroke-width="4"/>
+  <!-- eye -->
+  <circle cx="82" cy="115" r="4" fill="var(--bs-primary)"/>
+  <!-- smile -->
+  <path d="M75 132 Q90 142 105 132" fill="none" stroke="var(--bs-primary)" stroke-width="3" stroke-linecap="round"/>
+</svg>
+```
 
-- **Publications** — research articles, preprints, and related resources
-- **Talks & Conferences** — presentations, invited talks, and conference activities
-- **Unpublished** — ongoing projects, exploratory analyses, and research notes
-- **Software** — open-source tools, packages, and computational resources
-- **About** — me outside of research
-- **CV** — academic curriculum and professional experience
+::: {.hero-eyebrow}
+Error 404
+:::
 
-If you reached this page through a broken link, please feel free to let me know.
+# This variant didn't survive selection
+
+Looks like this page underwent purifying selection — or maybe it never
+made it into the reference genome to begin with. Either way, it's not
+here.
+
+
+You can head back to the:
+
+[Homepage](index.qmd){.pub-badge}
+
+If you got here through a broken link,
+[let me know](mailto:luca.sclisizzo@gmail.com) — happy to fix it.
+:::
