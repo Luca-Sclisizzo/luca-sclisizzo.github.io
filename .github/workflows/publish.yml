@@ -25,7 +25,7 @@ jobs:
       # 3. Install R packages
       - name: Install R packages
         run: |
-          Rscript -e 'install.packages(c("ggplot2", "dplyr"), repos="https://cloud.r-project.org")'
+          Rscript -e 'install.packages(c("ggplot2", "dplyr", "rmarkdown"), repos="https://cloud.r-project.org")'
 
       # 4. Install Quarto
       - name: Setup Quarto
