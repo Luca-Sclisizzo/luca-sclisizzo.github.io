@@ -21,8 +21,8 @@ Template taken from <https://dsquintana.com>
 ## Requirements {#requirements}
 
 - [Quarto](https://quarto.org)
-- R, with the `knitr` package
 - [AcademiCV](https://github.com/Luca-Sclisizzo/AcademiCV) — used to generate `files/CV_Sclisizzo.html`, the full CV rendered on the [CV page](cv.qmd)
+- R, with the `knitr` package
 
 Quarto also ships bundled with RStudio. If it isn't on the PATH, either open the project in RStudio and use **Build → Render Website**, or add it:
 
