@@ -31,6 +31,7 @@ website:
     card-style: summary
   image: files/profile.jpg
   navbar:
+    title: "Luca Sclisizzo"
     left:
       - href: site_pages/index.qmd
         text: Home
