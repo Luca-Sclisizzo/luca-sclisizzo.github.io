@@ -98,7 +98,40 @@ Update the `citekey` in that row to the paper's current key.
 
 ## Repository structure
 
-\`\`\`text . ├── site-pages/ │ ├── index.qmd │ ├── publications.qmd │ ├── talks.qmd │ ├── unpublished.qmd │ ├── software.qmd │ ├── about.qmd │ └── cv.qmd │ ├── files/ │ ├── \*.jpg \# Images │ ├── CV_Sclisizzo.html \# AcademiCV output │ └── Bayesian-Statistics_project.html \# RNA-seq trajectories │ ├── icons/ │ └── ... \# Icon assets │ ├── .github/ │ └── workflows/ │ └── ... \# GitHub Pages deployment │ ├── \_quarto.yml \# Site configuration ├── bibtools.R \# Publication list generation ├── publications.bib \# Zotero export ├── links.csv \# Per-paper links ├── apa.csl \# APA 7th citation style ├── styles.css \# Shared styling ├── theme-light.scss \# Light theme ├── theme-dark.scss \# Dark theme ├── deploy.sh \# Github automatic deploy └── \_site/ \# Rendered site output
+``` text
+.
+├── site-pages/
+│   ├── index.qmd
+│   ├── publications.qmd
+│   ├── talks.qmd
+│   ├── unpublished.qmd
+│   ├── software.qmd
+│   ├── about.qmd
+│   └── cv.qmd
+│
+├── files/
+│   ├── *.jpg                         # Images
+│   ├── CV_Sclisizzo.html             # AcademiCV output
+│   └── Bayesian-Statistics_project.html  # Project page
+│
+├── icons/
+│   └── ...                           # Icon assets
+│
+├── .github/
+│   └── workflows/
+│       └── ...                       # GitHub Pages deployment
+│
+├── _quarto.yml                       # Site configuration
+├── bibtools.R                        # Publication list generation
+├── publications.bib                  # Zotero export
+├── links.csv                         # Per-paper links
+├── apa.csl                           # APA 7th citation style
+├── styles.css                        # Shared styling
+├── theme-light.scss                  # Light theme
+├── theme-dark.scss                   # Dark theme
+├── deploy.sh                         # GitHub deployment script
+└── _site/                            # Rendered site output
+```
 
 `ORCID-iD_icon_BW_vector.svg` (in `icons/`) is referenced from `styles.css` rather than from any page, so it is declared under `resources:` in `_quarto.yml` to ensure it is published.
 
