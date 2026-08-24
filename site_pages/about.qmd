@@ -5,9 +5,9 @@ title: "About Me"
 ::: {.about-container}
 
 ::: {.about-photos}
-![](files/About_mountain.jpg){.about-photo}
+![](../files/About_mountain.jpg){.about-photo}
 
-![](files/About_Verdon.jpg){.about-photo}
+![](../files/About_Verdon.jpg){.about-photo}
 
 :::
 

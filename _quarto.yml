@@ -8,10 +8,10 @@ project:
     # them into stray HTML pages and lists them in sitemap.xml.
     - "!README.md"
     - "!LICENSE-CONTENT.md"
-    - "!NOTES.md"
+    - "!TODO.md"
   resources:
     # Referenced only from styles.css, so Quarto can't discover it on its own.
-    - ORCID-iD_icon_BW_vector.svg
+    - icons/ORCID-iD_icon_BW_vector.svg
 
 website:
   title: "Luca Sclisizzo"
@@ -32,19 +32,19 @@ website:
   image: files/profile.jpg
   navbar:
     left:
-      - href: index.qmd
+      - href: site_pages/index.qmd
         text: Home
-      - href: publications.qmd
+      - href: site_pages/publications.qmd
         text: Publications
-      - href: talks.qmd
+      - href: site_pages/talks.qmd
         text: Talks & Conferences
-      - href: unpublished.qmd
+      - href: site_pages/unpublished.qmd
         text: Unpublished
-      - href: software.qmd
+      - href: site_pages/software.qmd
         text: Software
-      - href: about.qmd
+      - href: site_pages/about.qmd
         text: About
-      - href: cv.qmd
+      - href: site_pages/cv.qmd
         text: CV
     right:
       - icon: envelope

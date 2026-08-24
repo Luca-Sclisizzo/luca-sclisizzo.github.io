@@ -3,7 +3,7 @@ title: "Luca Sclisizzo"
 subtitle: "MSc Student in Applied Psychology · University of Trieste"
 about:
   template: trestles
-  image: files/profile.jpg
+  image: ../files/profile.jpg
   image-shape: round
   links:
     - icon: envelope

@@ -1,8 +1,3 @@
----
-editor: markdown
-wrap: 72
----
-
 # Personal academic website
 
 A Quarto website whose publication list is generated from a Zotero BibTeX export, with per-paper links to data, code, preregistrations, preprints, and open-access versions.
@@ -41,11 +36,10 @@ quarto render
 git add -A && git commit -m "Update site"
 git push
 ```
-Or run `./deploy.sh`, which does the same three commands in one shot.
-If it does not work, it is likely due to missing execute permissions.
-In that case, run:
 
-```bash
+Or run `./deploy.sh`, which does the same three commands in one shot. If it does not work, it is likely due to missing execute permissions. In that case, run:
+
+``` bash
 chmod +x deploy.sh
 ```
 
@@ -102,19 +96,9 @@ Update the `citekey` in that row to the paper's current key.
 
 ## Repository layout
 
-| Path | Purpose |
-|----|----|
-| `*.qmd` | Site pages |
-| `_quarto.yml` | Site configuration: navbar, theme, metadata |
-| `.github/workflows/` | GitHub Actions workflow that publishes `_site/` to GitHub Pages on push |
-| `bibtools.R` | Publication list generation |
-| `publications.bib` | Zotero export |
-| `links.csv` | Per-paper data, code, and preprint links |
-| `apa.csl` | APA 7th citation style, from the CSL styles repository |
-| `styles.css`, `theme-light.scss`, `theme-dark.scss` | Styling |
-| `files/` | Static files served as-is — images, plus `files/CV_Sclisizzo.html` and `files/Bayesian-RNA_seq-trajectories.html` linked from `cv.qmd` |
-| `icons/` | Icon assets referenced from `styles.css` (e.g. the ORCID mark) |
-| `_site/` | Rendered output, committed for deployment |
+## Repository structure
+
+\`\`\`text . ├── site-pages/ │ ├── index.qmd │ ├── publications.qmd │ ├── talks.qmd │ ├── unpublished.qmd │ ├── software.qmd │ ├── about.qmd │ └── cv.qmd │ ├── files/ │ ├── \*.jpg \# Images │ ├── CV_Sclisizzo.html \# AcademiCV output │ └── Bayesian-Statistics_project.html \# RNA-seq trajectories │ ├── icons/ │ └── ... \# Icon assets │ ├── .github/ │ └── workflows/ │ └── ... \# GitHub Pages deployment │ ├── \_quarto.yml \# Site configuration ├── bibtools.R \# Publication list generation ├── publications.bib \# Zotero export ├── links.csv \# Per-paper links ├── apa.csl \# APA 7th citation style ├── styles.css \# Shared styling ├── theme-light.scss \# Light theme ├── theme-dark.scss \# Dark theme ├── deploy.sh \# Github automatic deploy └── \_site/ \# Rendered site output
 
 `ORCID-iD_icon_BW_vector.svg` (in `icons/`) is referenced from `styles.css` rather than from any page, so it is declared under `resources:` in `_quarto.yml` to ensure it is published.
 

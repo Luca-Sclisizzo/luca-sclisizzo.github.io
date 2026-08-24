@@ -1,31 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://lsclisizzo.com/unpublished.html</loc>
+    <loc>https://lsclisizzo.com/site_pages/unpublished.html</loc>
     <lastmod>2026-08-23T12:48:32.044Z</lastmod>
   </url>
   <url>
-    <loc>https://lsclisizzo.com/software.html</loc>
+    <loc>https://lsclisizzo.com/site_pages/software.html</loc>
     <lastmod>2026-08-23T12:12:41.317Z</lastmod>
   </url>
   <url>
-    <loc>https://lsclisizzo.com/index.html</loc>
-    <lastmod>2026-08-23T12:15:18.720Z</lastmod>
+    <loc>https://lsclisizzo.com/site_pages/index.html</loc>
+    <lastmod>2026-08-24T05:58:32.388Z</lastmod>
   </url>
   <url>
-    <loc>https://lsclisizzo.com/about.html</loc>
-    <lastmod>2026-08-23T12:09:23.046Z</lastmod>
+    <loc>https://lsclisizzo.com/site_pages/about.html</loc>
+    <lastmod>2026-08-24T05:58:21.105Z</lastmod>
   </url>
   <url>
-    <loc>https://lsclisizzo.com/cv.html</loc>
+    <loc>https://lsclisizzo.com/site_pages/404.html</loc>
+    <lastmod>2026-08-23T18:51:49.467Z</lastmod>
+  </url>
+  <url>
+    <loc>https://lsclisizzo.com/site_pages/cv.html</loc>
     <lastmod>2026-08-23T12:14:01.098Z</lastmod>
   </url>
   <url>
-    <loc>https://lsclisizzo.com/publications.html</loc>
-    <lastmod>2026-08-23T07:20:28.000Z</lastmod>
+    <loc>https://lsclisizzo.com/site_pages/publications.html</loc>
+    <lastmod>2026-08-24T05:57:32.186Z</lastmod>
   </url>
   <url>
-    <loc>https://lsclisizzo.com/talks.html</loc>
+    <loc>https://lsclisizzo.com/site_pages/talks.html</loc>
     <lastmod>2026-08-23T07:20:28.000Z</lastmod>
   </url>
 </urlset>
