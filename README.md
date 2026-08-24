@@ -4,6 +4,18 @@ A Quarto website whose publication list is generated from a Zotero BibTeX export
 
 Live at <https://luca-sclisizzo.github.io>. Template taken from <https://dsquintana.com>
 
+## Contents
+
+- [Requirements](#requirements)
+- [Building](#building)
+- [Deploying](#deploying)
+- [The publication list](#the-publication-list)
+  - [Updating](#updating)
+- [Per-paper links](#per-paper-links)
+  - [When a link stops appearing](#when-a-link-stops-appearing)
+- [Repository structure](#repository-structure)
+- [Licence](#licence)
+
 ## Requirements
 
 - [Quarto](https://quarto.org)
@@ -93,8 +105,6 @@ The link is then omitted silently, and the render reports the affected rows:
 ```
 
 Update the `citekey` in that row to the paper's current key.
-
-## Repository layout
 
 ## Repository structure
 
