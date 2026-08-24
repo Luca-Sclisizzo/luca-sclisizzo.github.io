@@ -87,7 +87,7 @@ Doe2023,Preprint,https://doi.org/10.1000/example
 ```
 
 | Column | Meaning |
-|------------------------------------|------------------------------------|
+|----|----|
 | `citekey` | The citation key from `publications.bib` — the `@article{THIS_BIT,` part |
 | `label` | Link text. Existing labels: `Data & code`, `Code`, `Preregistration`, `Preprint`, `Web app`, `Open access article` |
 | `url` | Destination. One row per link; a paper may have several rows |
