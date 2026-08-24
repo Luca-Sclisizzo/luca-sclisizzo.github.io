@@ -1,4 +1,4 @@
-# Personal academic website
+# Personal academic website v1.0.0
 
 A Quarto website whose publication list is generated from a Zotero BibTeX export, with per-paper links to data, code, preregistrations, preprints, and open-access versions.
 
