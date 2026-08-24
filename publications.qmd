@@ -6,7 +6,7 @@ execute:
 
 ```{r}
 #| include: false
-source("../bibtools.R")
+source("bibtools.R")
 ```
 
 This page contains a list of my publications, preprints, and research
@@ -19,6 +19,6 @@ to any materials that are not publicly available.
 ```{r}
 #| echo: false
 #| output: asis
-render_by_year("../publications.bib", csl = "../apa.csl")
+render_by_year("publications.bib", csl = "apa.csl")
 ```
 :::

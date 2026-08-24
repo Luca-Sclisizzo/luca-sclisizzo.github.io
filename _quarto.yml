@@ -31,21 +31,20 @@ website:
     card-style: summary
   image: files/profile.jpg
   navbar:
-    title: "Luca Sclisizzo"
     left:
-      - href: site_pages/index.qmd
+      - href: index.qmd
         text: Home
-      - href: site_pages/publications.qmd
+      - href: publications.qmd
         text: Publications
-      - href: site_pages/talks.qmd
+      - href: talks.qmd
         text: Talks & Conferences
-      - href: site_pages/unpublished.qmd
+      - href: unpublished.qmd
         text: Unpublished
-      - href: site_pages/software.qmd
+      - href: software.qmd
         text: Software
-      - href: site_pages/about.qmd
+      - href: about.qmd
         text: About
-      - href: site_pages/cv.qmd
+      - href: cv.qmd
         text: CV
     right:
       - icon: envelope

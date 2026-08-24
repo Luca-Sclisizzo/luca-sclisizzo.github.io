@@ -1,133 +1,126 @@
 [
   {
-    "objectID": "site_pages/unpublished.html",
-    "href": "site_pages/unpublished.html",
+    "objectID": "unpublished.html",
+    "href": "unpublished.html",
     "title": "Unpublished Projects",
     "section": "",
     "text": "This page presents unpublished research projects, exploratory analyses, and ongoing investigations developed as part of my research activities."
   },
   {
-    "objectID": "site_pages/unpublished.html#research-projects",
-    "href": "site_pages/unpublished.html#research-projects",
+    "objectID": "unpublished.html#research-projects",
+    "href": "unpublished.html#research-projects",
     "title": "Unpublished Projects",
     "section": "Research Projects",
     "text": "Research Projects\n\n\nSpatioTemporal Transcriptome Trajectories\nA Bayesian hierarchical approach to modelling developmental gene expression trajectories, using the BrainSpan / PsychENCODE transcriptomic datasets. The paper-style final report, complete codebase, and supporting materials are available below.\nPaper-Style Report Transcriptomic GitHub Repo"
   },
   {
-    "objectID": "site_pages/software.html",
-    "href": "site_pages/software.html",
+    "objectID": "software.html",
+    "href": "software.html",
     "title": "Software & Data",
     "section": "",
     "text": "Tools and packages developed to address everyday challenges in science and beyond."
   },
   {
-    "objectID": "site_pages/software.html#packages",
-    "href": "site_pages/software.html#packages",
+    "objectID": "software.html#packages",
+    "href": "software.html#packages",
     "title": "Software & Data",
     "section": "Packages",
     "text": "Packages\n\n\nAcademiCV\nSemi-automatic template for generating academic CVs. Built with JavaScript and Node.js, AcademiCV converts structured data into professionally formatted Microsoft Word and HTML documents, simplifying the maintenance, versioning, and publication of academic records. Version 2.0.0 introduced HTML output for web-based CV publishing, while version 2.1.0 added optional automatic synchronization with Quarto websites, enabling seamless updates of online academic profiles.\ngit clone https://github.com/Luca-Sclisizzo/AcademiCV.git\ncd AcademiCV\nnpm install\nGitHub Repository"
   },
   {
-    "objectID": "site_pages/software.html#data-code",
-    "href": "site_pages/software.html#data-code",
+    "objectID": "software.html#data-code",
+    "href": "software.html#data-code",
     "title": "Software & Data",
     "section": "Data & Code",
     "text": "Data & Code\nData, analysis scripts, and preregistrations for individual papers are linked directly from each entry on the Publications page, so they sit next to the study they belong to rather than in a separate index."
   },
   {
-    "objectID": "site_pages/index.html",
-    "href": "site_pages/index.html",
+    "objectID": "index.html",
+    "href": "index.html",
     "title": "Luca Sclisizzo",
     "section": "",
     "text": "Genomics × Psychology × Statistics"
   },
   {
-    "objectID": "site_pages/index.html#research-interests",
-    "href": "site_pages/index.html#research-interests",
+    "objectID": "index.html#research-interests",
+    "href": "index.html#research-interests",
     "title": "Luca Sclisizzo",
     "section": "Research Interests",
     "text": "Research Interests\n\n\nPsychiatric genomics — psychosis, neurodevelopment\nStatistical genomics for complex traits\nBayesian hierarchical modelling of biological trajectories\nLongitudinal genetic models of development\n\n\nAbout → CV →"
   },
   {
-    "objectID": "site_pages/about.html",
-    "href": "site_pages/about.html",
+    "objectID": "about.html",
+    "href": "about.html",
     "title": "About Me",
     "section": "",
     "text": "I’m an M.Sc. student in Applied Psychology at the University of Trieste, working at the intersection of statistical genomics, computational modelling, and psychology to understand the biological mechanisms underlying complex traits.\nMy long-term goal is to bridge clinical and psychological knowledge with quantitative genomic models — using genome-wide association studies, polygenic models, and predictive approaches to better understand individual differences in behaviour and mental health. I’m also interested in Bayesian modelling, omics data, and machine learning as complementary tools for capturing this complexity.\nI love meeting people from different backgrounds — I believe the best insights often emerge when different fields come together to approach the same question from multiple perspectives.\nOutside academia, I enjoy spending time in nature, particularly hiking and exploring mountain environments. And yes, the moustache? It started as a bet, but somehow it has become part of my identity. So, if you ever see a moustache climbing up a mountain, do not hesitate to say hello — it is probably me!"
   },
   {
-    "objectID": "site_pages/404.html",
-    "href": "site_pages/404.html",
-    "title": "Page Not Found",
-    "section": "",
-    "text": "Error 404\n\n\nThis variant didn’t survive selection\nLooks like this page underwent purifying selection — or maybe it never made it into the reference genome to begin with. Either way, it’s not here.\nYou can head back to the:\nHomepage\nIf you got here through a broken link, let me know — happy to fix it."
-  },
-  {
-    "objectID": "site_pages/cv.html",
-    "href": "site_pages/cv.html",
+    "objectID": "cv.html",
+    "href": "cv.html",
     "title": "CV",
     "section": "",
     "text": "M.Sc. student in Applied Psychology at the University of Trieste, interested in understanding the biological mechanisms underlying human behaviour and psychiatric traits using computational approaches at the intersection between statistical genetics and biological psychiatry."
   },
   {
-    "objectID": "site_pages/cv.html#education",
-    "href": "site_pages/cv.html#education",
+    "objectID": "cv.html#education",
+    "href": "cv.html#education",
     "title": "CV",
     "section": "Education",
     "text": "Education\n\n\nMaster of Psychology\nDepartment of Life Sciences, University of Trieste, Italy\n\n2024–Ongoing\n\n\n\nBachelor of Psychology (Honours)\nDepartment of Life Sciences, University of Trieste, Italy\n\n2021–2024"
   },
   {
-    "objectID": "site_pages/cv.html#positions",
-    "href": "site_pages/cv.html#positions",
+    "objectID": "cv.html#positions",
+    "href": "cv.html#positions",
     "title": "CV",
     "section": "Positions",
     "text": "Positions\n\n\nVisiting Scholar (100%)\nDepartment of Psychiatry, Washington University School of Medicine, St. Louis, Missouri USA\n\n2025"
   },
   {
-    "objectID": "site_pages/cv.html#awards",
-    "href": "site_pages/cv.html#awards",
+    "objectID": "cv.html#awards",
+    "href": "cv.html#awards",
     "title": "CV",
     "section": "Awards",
     "text": "Awards\n\n\nBGA Annual Meeting Travel Award\nBehavior Genetics Association\n\n2026"
   },
   {
-    "objectID": "site_pages/cv.html#full-cv",
-    "href": "site_pages/cv.html#full-cv",
+    "objectID": "cv.html#full-cv",
+    "href": "cv.html#full-cv",
     "title": "CV",
     "section": "Full CV",
     "text": "Full CV\nFor a detailed overview of my academic background, publications, presentations, and research activities:\nDownload full CV →"
   },
   {
-    "objectID": "site_pages/cv.html#profiles",
-    "href": "site_pages/cv.html#profiles",
+    "objectID": "cv.html#profiles",
+    "href": "cv.html#profiles",
     "title": "CV",
     "section": "Profiles",
     "text": "Profiles\nGoogle Scholar ORCID OSF GitHub"
   },
   {
-    "objectID": "site_pages/publications.html",
-    "href": "site_pages/publications.html",
+    "objectID": "publications.html",
+    "href": "publications.html",
     "title": "Publications",
     "section": "",
     "text": "This page contains a list of my publications, preprints, and research materials. Where available, links to manuscripts, abstracts, and supplementary materials are provided. Please feel free to contact me if you would like access to any materials that are not publicly available."
   },
   {
-    "objectID": "site_pages/talks.html",
-    "href": "site_pages/talks.html",
+    "objectID": "talks.html",
+    "href": "talks.html",
     "title": "Talks & Conferences",
     "section": "",
     "text": "This page contains a list of talks, presentations, and conferences highlighting my research activities, academic contributions, and scientific interests. Abstracts and slides are available on my OSF page, with links provided after the corresponding presentations."
   },
   {
-    "objectID": "site_pages/talks.html#conference-presentations",
-    "href": "site_pages/talks.html#conference-presentations",
+    "objectID": "talks.html#conference-presentations",
+    "href": "talks.html#conference-presentations",
     "title": "Talks & Conferences",
     "section": "Conference Presentations",
     "text": "Conference Presentations\n\n2026\nDissecting the spectrum of psychosis: leveraging time and dimensionality to explore multiple, functionally separable sources of genetic risk\nBehavior Genetics Association (BGA) Annual Meeting · Amsterdam, Netherlands\nRole: Symposium Chair & Speaker\nSymposium: Genes and Time: A Dive Into the Temporal Dynamics of Human Phenotypes\nDiscussant: Michael C. Neale\nAbstract Slides"
   },
   {
-    "objectID": "site_pages/talks.html#conferences-workshops",
-    "href": "site_pages/talks.html#conferences-workshops",
+    "objectID": "talks.html#conferences-workshops",
+    "href": "talks.html#conferences-workshops",
     "title": "Talks & Conferences",
     "section": "Conferences & Workshops",
     "text": "Conferences & Workshops\n\n2024\nEvolutionary Psychiatry and Genetics Conference\nEttore Majorana Foundation · Erice, Italy\nIntensive course “Towards a New Science of Mental Disorders: Bridging Evolution and Genetics”, connecting evolutionary psychiatry, psychopathology, behavioral genetics, and genomics.\n21st European Conference on Personality (ECP21)\nBerlin, Germany\nParticipant at the biennial conference on personality psychology, including innovative assessment methods, genetic and biological personality, and AI-based approaches."

@@ -112,37 +112,34 @@ Update the `citekey` in that row to the paper's current key.
 
 ``` text
 .
-├── site-pages/
-│   ├── index.qmd
-│   ├── publications.qmd
-│   ├── talks.qmd
-│   ├── unpublished.qmd
-│   ├── software.qmd
-│   ├── about.qmd
-│   └── cv.qmd
+├── index.qmd                              # Homepage
+├── publications.qmd                       # Publications list
+├── talks.qmd                              # Talks & conferences
+├── unpublished.qmd                        # Unpublished work
+├── software.qmd                           # Software projects
+├── about.qmd                              # About page
+├── cv.qmd                                 # CV
 │
 ├── files/
-│   ├── *.jpg                         # Images
-│   ├── CV_Sclisizzo.html             # AcademiCV output
-│   └── Bayesian-Statistics_project.html  # Project page
+│   ├── *.jpg                              # Images
+│   ├── CV_Sclisizzo.html                  # AcademiCV output
+│   └── Bayesian-Statistics_project.html   # Project report
 │
-├── icons/
-│   └── ...                           # Icon assets
+├── icons/                                 # Icon assets
 │
 ├── .github/
-│   └── workflows/
-│       └── ...                       # GitHub Pages deployment
+│   └── workflows/                         # GitHub Pages deployment workflow
 │
-├── _quarto.yml                       # Site configuration
-├── bibtools.R                        # Publication list generation
-├── publications.bib                  # Zotero export
-├── links.csv                         # Per-paper links
-├── apa.csl                           # APA 7th citation style
-├── styles.css                        # Shared styling
-├── theme-light.scss                  # Light theme
-├── theme-dark.scss                   # Dark theme
-├── deploy.sh                         # GitHub deployment script
-└── _site/                            # Rendered site output
+├── _quarto.yml                            # Site configuration
+├── bibtools.R                             # Publication list generation
+├── publications.bib                       # Zotero export
+├── links.csv                              # Per-paper links
+├── apa.csl                                # APA 7th citation style
+├── styles.css                             # Shared styling
+├── theme-light.scss                       # Light theme
+├── theme-dark.scss                        # Dark theme
+├── deploy.sh                              # Manual deploy script
+└── _site/                                 # Rendered site output (generated, not tracked)
 ```
 
 `ORCID-iD_icon_BW_vector.svg` (in `icons/`) is referenced from `styles.css` rather than from any page, so it is declared under `resources:` in `_quarto.yml` to ensure it is published.
