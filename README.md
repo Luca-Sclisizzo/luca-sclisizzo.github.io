@@ -140,7 +140,7 @@ Update the `citekey` in that row to the paper's current key.
 ├── theme-light.scss                       # Light theme
 ├── theme-dark.scss                        # Dark theme
 ├── deploy.sh                              # Manual deploy script
-└── _site/                                 # Rendered site output (not tracked and rendered by the workflow)
+└── _site/                                 # Rendered site output (tracked and rendered by the workflow)
 ```
 
 `ORCID-iD_icon_BW_vector.svg` (in `icons/`) is referenced from `styles.css` rather than from any page, so it is declared under `resources:` in `_quarto.yml` to ensure it is published.
