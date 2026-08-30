@@ -13,18 +13,20 @@ and beyond.
   JavaScript and Node.js, AcademiCV converts structured data into
   professionally formatted Microsoft Word and HTML documents,
   simplifying the maintenance, versioning, and publication of academic
-  records. Version 2.0.0 introduced HTML output for web-based CV
-  publishing, while version 2.1.0 added optional automatic
-  synchronization with Quarto websites, enabling seamless updates of
-  online academic profiles.
+  records.
 
-  ```bash
+  **Current version:** `2.1.0` — adds optional automatic synchronization
+  with Quarto websites, enabling seamless updates of online academic
+  profiles.
+
+```bash
   git clone https://github.com/Luca-Sclisizzo/AcademiCV.git
   cd AcademiCV
   npm install
-  ```
+```
 
   [GitHub Repository](https://github.com/Luca-Sclisizzo/AcademiCV.git){.pub-badge target="_blank" rel="noopener"}
+  [Changelog](https://github.com/Luca-Sclisizzo/AcademiCV/releases/){.pub-badge target="_blank" rel="noopener"}
 :::
 
 ## Data & Code
