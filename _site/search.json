@@ -11,7 +11,7 @@
     "href": "unpublished.html#research-projects",
     "title": "Unpublished Projects",
     "section": "Research Projects",
-    "text": "Research Projects\n\n\nSpatioTemporal Transcriptome Trajectories\nA Bayesian hierarchical approach to modelling developmental gene expression trajectories, using the BrainSpan / PsychENCODE transcriptomic datasets. The paper-style final report, complete codebase, and supporting materials are available below.\nPaper-Style Report Transcriptomic GitHub Repo"
+    "text": "Research Projects\n\n\nSpatioTemporal Transcriptomic Trajectories\nA Bayesian hierarchical approach to modelling developmental gene expression trajectories, using the BrainSpan / PsychENCODE transcriptomic datasets. The paper-style final report, complete codebase, and supporting materials are available below.\nPaper-Style Report Transcriptomic GitHub Repo"
   },
   {
     "objectID": "software.html",
@@ -25,7 +25,7 @@
     "href": "software.html#packages",
     "title": "Software & Data",
     "section": "Packages",
-    "text": "Packages\n\n\nAcademiCV\nSemi-automatic template for generating academic CVs. Built with JavaScript and Node.js, AcademiCV converts structured data into professionally formatted Microsoft Word and HTML documents, simplifying the maintenance, versioning, and publication of academic records.\nCurrent version: 2.1.0 — adds optional automatic synchronization with Quarto websites, enabling seamless updates of online academic profiles.\n\n  git clone https://github.com/Luca-Sclisizzo/AcademiCV.git\n  cd AcademiCV\n  npm install\nGitHub Repository Changelog"
+    "text": "Packages\n\nAcademiCV\nSemi-automatic template for generating academic CVs. Built with JavaScript and Node.js, AcademiCV converts structured data into professionally formatted Microsoft Word and HTML documents, simplifying the maintenance, versioning, and publication of academic records.\nCurrent version: 2.1.0 — adds optional automatic synchronization with Quarto websites, enabling seamless updates of online academic profiles.\ngit clone https://github.com/Luca-Sclisizzo/AcademiCV.git\ncd AcademiCV\nnpm install\nGitHub Repository Changelog"
   },
   {
     "objectID": "software.html#data-code",

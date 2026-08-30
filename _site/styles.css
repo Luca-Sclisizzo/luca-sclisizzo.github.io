@@ -379,3 +379,16 @@ main h2 {
 .notfound .pub-badge {
   margin: 0.3em 0.35em 0 0;
 }
+
+/* ============================================
+   Software naming color (software.qmd)
+   ============================================ */
+
+.pub-title {
+  font-family: "Newsreader", Georgia, "Times New Roman", serif;
+  font-weight: 600;
+  font-size: 1.15rem;
+  color: var(--accent-warm);
+  display: inline-block;
+  margin-bottom: 0.3rem;
+}

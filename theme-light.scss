@@ -126,3 +126,10 @@ code {
     transparent 3px, transparent 6px
   );
 }
+
+/* Package version color for software.qmd*/
+$pub-version-color: color-mix(in srgb, $accent-warm 40%, $body-color);
+.pub-version,
+.pub-version code {
+  color: $pub-version-color;
+}

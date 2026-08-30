@@ -8,7 +8,7 @@ and ongoing investigations developed as part of my research activities.
 ## Research Projects
 
 ::: {.pub-list}
-- **SpatioTemporal Transcriptome Trajectories**\
+- [SpatioTemporal Transcriptomic Trajectories]{.pub-title}\
   A Bayesian hierarchical approach to modelling developmental gene
   expression trajectories, using the BrainSpan / PsychENCODE
   transcriptomic datasets. The paper-style final report, complete
