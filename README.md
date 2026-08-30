@@ -59,6 +59,7 @@ chmod +x deploy.sh
 ```
 
 Render before pushing. The workflow deploys whatever `_site/` contains at push time, so an unrendered push deploys the previous build.
+> **Note:** If working from RStudio, pushing via its Git interface may fail with a complaint that the push is "too large" (especially after a render that updates many files in `_site/`). In that case, use `./deploy.sh` from the terminal instead of RStudio's push button.
 
 ## The publication list
 
