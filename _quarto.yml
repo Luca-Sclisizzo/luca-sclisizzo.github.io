@@ -24,7 +24,7 @@ website:
   # site-url set above — without it the image path can't be made absolute, and
   # scrapers ignore relative ones.
   open-graph: true
-  favicon: icons/favicon.ico
+  favicon: icons/moon.svg
   twitter-card:
     # "summary" is the small square card, which suits a square headshot.
     # summary_large_image needs a wide ~1200x630 image; feeding it a square one
