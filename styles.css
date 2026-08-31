@@ -380,9 +380,9 @@ main h2 {
   margin: 0.3em 0.35em 0 0;
 }
 
-/* ============================================
-   Software naming color (software.qmd)
-   ============================================ */
+/* ======================================================================
+   Important elements color (used for software, talks, unpublished, etc.)
+   ====================================================================== */
 
 .pub-title {
   font-family: "Newsreader", Georgia, "Times New Roman", serif;
@@ -391,4 +391,23 @@ main h2 {
   color: var(--accent-warm);
   display: inline-block;
   margin-bottom: 0.3rem;
+}
+
+/* ============================================
+   Metadata labels (talks.qmd)
+   ============================================ */
+.pub-meta {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font-size: 0.78rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: #888;
+  font-weight: 500;
+  margin-right: 0.3rem;
+}
+
+.pub-meta-value {
+  color: #aaa;
+  font-weight: 400;
+  font-size: 0.92rem;
 }

@@ -13,32 +13,34 @@ page, with links provided after the corresponding presentations.
 
 ### 2026
 
-**Dissecting the spectrum of psychosis: leveraging time and
+::: {.pub-list}
+[Dissecting the spectrum of psychosis: leveraging time and
 dimensionality to explore multiple, functionally separable sources of
-genetic risk**\
+genetic risk]{.pub-title}\
 *Behavior Genetics Association (BGA) Annual Meeting* · Amsterdam,
 Netherlands\
-**Role:** Symposium Chair & Speaker\
-**Symposium:** *Genes and Time: A Dive Into the Temporal Dynamics of
-Human Phenotypes*\
-**Discussant:** Michael C. Neale\
+[Role:]{.pub-meta} [Chair & Speaker]{.pub-meta-value}\
+[Symposium:]{.pub-meta} [Genes and Time: A Dive Into the Temporal
+Dynamics of Human Phenotypes]{.pub-meta-value}\
+[Discussant:]{.pub-meta} [Michael C. Neale]{.pub-meta-value}\
 [Abstract](https://osf.io/2u534){.pub-badge target="_blank" rel="noopener"}
 [Slides](https://osf.io/3yku2){.pub-badge target="_blank" rel="noopener"}
+:::
 
 ## Conferences & Workshops
 
 ### 2024
 
 **Evolutionary Psychiatry and Genetics Conference**\
-Ettore Majorana Foundation · Erice, Italy\
-Intensive course *"Towards a New Science of Mental Disorders: Bridging
+*Ettore Majorana Foundation* · Erice, Italy\
+[Intensive course *"Towards a New Science of Mental Disorders: Bridging
 Evolution and Genetics"*, connecting evolutionary psychiatry,
-psychopathology, behavioral genetics, and genomics.
+psychopathology, behavioral genetics, and genomics.]{.pub-meta-value}
 
 **21st European Conference on Personality (ECP21)**\
 Berlin, Germany\
-Participant at the biennial conference on personality psychology,
+[Participant at the biennial conference on personality psychology,
 including innovative assessment methods, genetic and biological
-personality, and AI-based approaches.
+personality, and AI-based approaches.]{.pub-meta-value}
 
 :::
