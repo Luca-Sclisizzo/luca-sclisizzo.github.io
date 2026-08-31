@@ -39,13 +39,12 @@ Genomics × Psychology × Statistics
 # Hi, I'm Luca 👋
 
 M.Sc. student in Applied Psychology at the University of Trieste,
-working at the intersection of statistical genomics and computational
+working at the intersection of statistical genomics and biological
 psychiatry.
 
-I spent time at the [Behavior, Environment, and Genetics
-Lab](https://sites.wustl.edu/emmajohnsonlab/) (WashU St. Louis),
-working on the genomics of psychosis and Bayesian transcriptomic
-modelling.
+I collaborate with the [Behavior, Environment, and Genetics
+Lab](https://sites.wustl.edu/emmajohnsonlab/) at WashU in St. Louis (MO, USA),
+working on the genomics of psychiatric traits.
 
 ## Research Interests
 

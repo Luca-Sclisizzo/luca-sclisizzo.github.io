@@ -11,7 +11,7 @@
     "href": "unpublished.html#research-projects",
     "title": "Unpublished Projects",
     "section": "Research Projects",
-    "text": "Research Projects\n\n\nSpatioTemporal Transcriptomic Trajectories\nA Bayesian hierarchical approach to modelling developmental gene expression trajectories, using the BrainSpan / PsychENCODE transcriptomic datasets. The paper-style final report, complete codebase, and supporting materials are available below.\nPaper-Style Report Transcriptomic GitHub Repo"
+    "text": "Research Projects\n\n\nSpatio-Temporal Transcriptomic Trajectories\nA Bayesian hierarchical approach to modelling developmental gene expression trajectories, using the BrainSpan / PsychENCODE transcriptomic datasets. The paper-style final report, complete codebase, and supporting materials are available below.\nPaper-Style Report Transcriptomic GitHub Repo"
   },
   {
     "objectID": "software.html",
