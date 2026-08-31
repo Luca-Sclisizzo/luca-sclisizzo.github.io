@@ -49,7 +49,7 @@ working on the genomics of psychiatric traits.
 ## Research Interests
 
 ::: {.research-list}
-- Psychiatric genomics — psychosis, neurodevelopment
+- Psychiatric genomics - psychosis, neurodevelopment
 - Statistical genomics for complex traits
 - Bayesian hierarchical modelling of biological trajectories
 - Longitudinal genetic models of development
