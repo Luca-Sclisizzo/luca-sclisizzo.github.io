@@ -51,8 +51,8 @@ working on the genomics of psychiatric traits.
 ::: {.research-list}
 - Psychiatric genomics - psychosis, neurodevelopment
 - Statistical genomics for complex traits
-- Bayesian hierarchical modelling of biological trajectories
-- Longitudinal genetic models of development
+- Bayesian hierarchical modelling of RNA-seq trajectories
+- Longitudinal genetic models
 :::
 
 [About →](about.qmd){.pub-badge target="_blank" rel="noopener"} [CV →](cv.qmd){.pub-badge target="_blank" rel="noopener"}
