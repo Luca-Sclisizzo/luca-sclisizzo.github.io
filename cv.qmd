@@ -3,47 +3,42 @@ title: "CV"
 ---
 
 M.Sc. student in Applied Psychology at the University of Trieste, interested
-in understanding the biological mechanisms underlying human behaviour and
-psychiatric traits using computational approaches at the intersection
-between statistical genetics and biological psychiatry.
+in the biological mechanisms underlying human behavior and psychiatric
+traits, studied through computational approaches at the intersection of
+statistical genetics and biological psychiatry.
+
+::: {.talks}
 
 ## Education
 
-::: {.cv-entry}
-::: {.cv-entry-body}
-**Master of Psychology**\
-Department of Life Sciences, University of Trieste, Italy
-:::
-[2024–Ongoing]{.year-label}
-:::
+[Master of Psychology]{.pub-title}\
+*Department of Life Sciences, University of Trieste* · Trieste, Italy\
+[Period:]{.pub-meta} [2024–Ongoing]{.pub-meta-value}\
+[Specialization:]{.pub-meta} [Computational models and behavioral genetics]{.pub-meta-value}\
+[GPA:]{.pub-meta} [29.5 / 30]{.pub-meta-value}
 
-::: {.cv-entry}
-::: {.cv-entry-body}
-**Bachelor of Psychology (Honours)**\
-Department of Life Sciences, University of Trieste, Italy
-:::
-[2021–2024]{.year-label}
-:::
+Bachelor of Psychology (Honours)\
+*Department of Life Sciences, University of Trieste* · Trieste, Italy\
+[Period:]{.pub-meta} [2021–2024]{.pub-meta-value}\
+[Grade:]{.pub-meta} [With Honours]{.pub-meta-value}
 
 ## Positions
 
-::: {.cv-entry}
-::: {.cv-entry-body}
-**Visiting Scholar** (100%)\
-Department of Psychiatry, Washington University School of Medicine,
-St. Louis, Missouri USA
-:::
-[2025]{.year-label}
-:::
+[Visiting Scholar]{.pub-title} (100%)\
+*Department of Psychiatry, Washington University School of Medicine* ·
+St. Louis, Missouri, USA\
+[Period:]{.pub-meta} [2025]{.pub-meta-value}\
+[Lab:]{.pub-meta} [Behavior, Environment, and Genetics Laboratory (PI: Prof.
+Emma C. Johnson)]{.pub-meta-value}\
+[Focus:]{.pub-meta} [Psychosis, statistical genomics, transcriptomics, and
+GenomicSEM]{.pub-meta-value}
 
 ## Awards
 
-::: {.cv-entry}
-::: {.cv-entry-body}
-**BGA Annual Meeting Travel Award**\
-Behavior Genetics Association
-:::
-[2026]{.year-label}
+[BGA Annual Meeting Travel Award]{.pub-title}\
+*Behavior Genetics Association*\
+[Year:]{.pub-meta} [2026]{.pub-meta-value}
+
 :::
 
 ## Full CV
@@ -55,7 +50,7 @@ presentations, and research activities:
 
 ## Profiles
 
-[Google Scholar](??){.pub-badge}
-[ORCID](https://orcid.org/0009-0001-2757-4261){.pub-badge}
-[OSF](https://osf.io/j6e4s/){.pub-badge}
-[GitHub](https://github.com/Luca-Sclisizzo){.pub-badge}
+[Google Scholar](https://scholar.google.com/citations?user=YOUR_ID){.pub-badge target="_blank" rel="noopener"}
+[ORCID](https://orcid.org/0009-0001-2757-4261){.pub-badge target="_blank" rel="noopener"}
+[OSF](https://osf.io/j6e4s/){.pub-badge target="_blank" rel="noopener"}
+[GitHub](https://github.com/Luca-Sclisizzo){.pub-badge target="_blank" rel="noopener"}
