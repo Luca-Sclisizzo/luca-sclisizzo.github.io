@@ -12,18 +12,17 @@ title: "About Me"
 :::
 
 ::: {.about-text}
-I'm an [M.Sc. student in Applied Psychology]{.highlight} at the
+I'm an M.Sc. student in Applied Psychology at the
 University of Trieste, working at the intersection of [statistical
-genomics, computational modelling, and psychology]{.highlight} to
+genomics]{.highlight}, machine learning, and psychology to
 understand the biological mechanisms underlying complex traits.
 
-My long-term goal is to [bridge clinical and psychological knowledge
-with quantitative genomic models]{.highlight} - using genome-wide
-association studies, polygenic models, and predictive approaches to
-better understand individual differences in behaviour and mental
-health. I'm also interested in [Bayesian modelling, omics data, and
-machine learning]{.highlight} as complementary tools for capturing
-this complexity.
+My long-term goal is to bridge clinical and psychological knowledge
+with quantitative genomic models - using [polygenic models]{.highlight}, omics data
+and [longitudinal approaches]{.highlight} to better understand individual
+differences in behaviour and mental health. I'm also increasingly focused on
+[Bayesian modelling]{.highlight} and [machine learning]{.highlight} methods for 
+health data, applying them alongside more traditional statistical genomics approaches.
 
 I love meeting people from different backgrounds - I believe the best 
 insights often emerge when different fields come together to approach the same
