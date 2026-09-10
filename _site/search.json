@@ -53,7 +53,7 @@
     "href": "about.html",
     "title": "About Me",
     "section": "",
-    "text": "I’m an M.Sc. student in Applied Psychology at the University of Trieste, working at the intersection of statistical genomics, computational modelling, and psychology to understand the biological mechanisms underlying complex traits.\nMy long-term goal is to bridge clinical and psychological knowledge with quantitative genomic models — using genome-wide association studies, polygenic models, and predictive approaches to better understand individual differences in behaviour and mental health. I’m also interested in Bayesian modelling, omics data, and machine learning as complementary tools for capturing this complexity.\nI love meeting people from different backgrounds — I believe the best insights often emerge when different fields come together to approach the same question from multiple perspectives.\nOutside academia, I enjoy spending time in nature, particularly hiking and exploring mountain environments. And yes, the moustache? It started as a bet, but somehow it has become part of my identity. So, if you ever see a moustache climbing up a mountain, do not hesitate to say hello — it is probably me!"
+    "text": "I’m an M.Sc. student in Applied Psychology at the University of Trieste, working at the intersection of statistical genomics, computational modelling, and psychology to understand the biological mechanisms underlying complex traits.\nMy long-term goal is to bridge clinical and psychological knowledge with quantitative genomic models - using genome-wide association studies, polygenic models, and predictive approaches to better understand individual differences in behaviour and mental health. I’m also interested in Bayesian modelling, omics data, and machine learning as complementary tools for capturing this complexity.\nI love meeting people from different backgrounds - I believe the best insights often emerge when different fields come together to approach the same question from multiple perspectives.\nOutside academia, I enjoy spending time in nature, particularly hiking and exploring mountain environments. And yes, the moustache? It started as a bet, but somehow it has become part of my identity. So, if you ever see a moustache climbing up a mountain, do not hesitate to say hello - it is probably me!"
   },
   {
     "objectID": "cv.html",
@@ -116,7 +116,7 @@
     "href": "talks.html#conference-presentations",
     "title": "Talks & Conferences",
     "section": "Conference Presentations",
-    "text": "Conference Presentations\n\n2026\n\nDissecting the spectrum of psychosis: leveraging time and dimensionality to explore multiple, functionally separable sources of genetic risk\nBehavior Genetics Association (BGA) Annual Meeting · Amsterdam, Netherlands\nRole: Chair & Speaker\nSymposium: Genes and Time: A Dive Into the Temporal Dynamics of Human Phenotypes\nDiscussant: Michael C. Neale\nAbstract Slides"
+    "text": "Conference Presentations\n\n2026\n\nDissecting the spectrum of psychosis: leveraging time and dimensionality to explore multiple, functionally separable sources of genetic risk\nBehavior Genetics Association (BGA) Annual Meeting · Amsterdam,Netherlands\nSymposium: Genes and Time: A Dive Into the Temporal Dynamics of Human Phenotypes\nDiscussant: Michael C. Neale\nRole: Chair & Speaker\nAbstract Slides"
   },
   {
     "objectID": "talks.html#conferences-workshops",

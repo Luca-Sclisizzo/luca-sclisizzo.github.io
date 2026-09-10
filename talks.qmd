@@ -17,12 +17,10 @@ page, with links provided after the corresponding presentations.
 [Dissecting the spectrum of psychosis: leveraging time and
 dimensionality to explore multiple, functionally separable sources of
 genetic risk]{.pub-title}\
-*Behavior Genetics Association (BGA) Annual Meeting* · Amsterdam,
-Netherlands\
-[Role:]{.pub-meta} [Chair & Speaker]{.pub-meta-value}\
-[Symposium:]{.pub-meta} [Genes and Time: A Dive Into the Temporal
-Dynamics of Human Phenotypes]{.pub-meta-value}\
+*Behavior Genetics Association (BGA) Annual Meeting* · Amsterdam,Netherlands\
+[Symposium:]{.pub-meta} [Genes and Time: A Dive Into the Temporal Dynamics of Human Phenotypes]{.pub-meta-value}\
 [Discussant:]{.pub-meta} [Michael C. Neale]{.pub-meta-value}\
+[Role:]{.pub-meta} [Chair & Speaker]{.pub-meta-value}\
 [Abstract](https://osf.io/2u534){.pub-badge target="_blank" rel="noopener"}
 [Slides](https://osf.io/3yku2){.pub-badge target="_blank" rel="noopener"}
 :::
