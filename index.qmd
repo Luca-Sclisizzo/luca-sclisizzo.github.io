@@ -55,7 +55,7 @@ working on the genomics of psychiatric traits.
 - Longitudinal genetic models
 :::
 
-## Featured papers
+## Featured Papers
 
 ::: featured
 [Parsing the Functional Heterogeneity of the Psychosis Spectrum: A Clinically Informed Application of Genomic Structural Equation Modeling]{.pub-title} <br>
