@@ -46,7 +46,14 @@
     "href": "index.html#research-interests",
     "title": "Luca Sclisizzo",
     "section": "Research Interests",
-    "text": "Research Interests\n\n\nPsychiatric genomics - psychosis, neurodevelopment\nStatistical genomics for complex traits\nBayesian hierarchical modelling of RNA-seq trajectories\nLongitudinal genetic models\n\n\nAbout → CV →"
+    "text": "Research Interests\n\n\nPsychiatric genomics - psychosis, neurodevelopment\nStatistical genomics for complex traits\nBayesian hierarchical modelling of RNA-seq trajectories\nLongitudinal genetic models"
+  },
+  {
+    "objectID": "index.html#featured-papers",
+    "href": "index.html#featured-papers",
+    "title": "Luca Sclisizzo",
+    "section": "Featured papers",
+    "text": "Featured papers\n\nParsing the Functional Heterogeneity of the Psychosis Spectrum: A Clinically Informed Application of Genomic Structural Equation Modeling  Sclisizzo et al., MedRxiv (2026) Using GenomicSEM to disentangle the heterogeneity of the psychosis spectrum.\nPreprint\n\nAll publications →"
   },
   {
     "objectID": "about.html",
@@ -102,7 +109,7 @@
     "href": "publications.html",
     "title": "Publications",
     "section": "",
-    "text": "This page contains a list of my publications, preprints, and research materials. Where available, links to manuscripts, abstracts, and supplementary materials are provided. Please feel free to contact me if you would like access to any materials that are not publicly available."
+    "text": "This page contains a list of my publications, preprints, and research materials. Where available, links to manuscripts, abstracts, and supplementary materials are provided. Please feel free to contact me if you would like access to any materials that are not publicly available.\n\n2026\n\n\nSclisizzo, L., Baranger, D. A., Clapp Sullivan, M. L., Hatoum, A. S., Del Giudice, M., & Johnson, E. C. (2026). Parsing the Functional Heterogeneity of the Psychosis Spectrum: A Clinically Informed Application of Genomic Structural Equation Modeling. Psychiatry; Clinical Psychology. https://doi.org/10.64898/2026.09.08.26362224"
   },
   {
     "objectID": "talks.html",

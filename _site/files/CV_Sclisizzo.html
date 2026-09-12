@@ -40,7 +40,7 @@
     color: var(--blue);
     text-decoration: underline;
   }
-  section { margin-bottom: 16px; }
+  section { margin-bottom: 35px; }
   .section-header {
     color: var(--blue);
     font-size: 12pt;
@@ -50,25 +50,34 @@
     margin: 22px 0 8px;
     letter-spacing: 0.5px;
   }
-  .entry-title {
+.entry-title {
     display: flex;
     justify-content: space-between;
-    align-items: baseline;
+    align-items: flex-start;   /* era: baseline */
     margin-top: 14px;
-  }
-  .entry-title .title {
+    gap: 24px;
+}
+.entry-title .title {
     font-weight: bold;
     font-size: 11pt;
     color: var(--dark);
-  }
-  .entry-title .date {
+    flex: 1;
+}
+.entry-title .date {
     font-style: italic;
     font-size: 10pt;
     color: var(--gray);
     white-space: nowrap;
-    margin-left: 12px;
-  }
-  .entry-subtitle {
+    margin-left: 0;   /* sostituito dal gap sopra */
+    text-align: right;
+}
+.entry-title-only {
+    font-weight: bold;
+    font-size: 11pt;
+    color: var(--dark);
+    margin-top: 14px;
+}
+.entry-subtitle {
     font-style: italic;
     font-size: 10pt;
     color: var(--gray);
@@ -79,18 +88,29 @@
     margin: 4px 0;
   }
   .subheading {
-    font-weight: bold;
-    font-size: 10pt;
-    margin: 8px 0 3px;
+    font-weight: normal;
+    font-size: 8.5pt;
+    color: var(--blue);
+    text-transform: uppercase;
+    letter-spacing: 0.8px;
+    margin: 10px 0 4px;
   }
-  ul.bullets {
+ul.bullets {
     margin: 2px 0 4px;
-    padding-left: 20px;
-  }
+    padding-left: 16px;
+    list-style: none;
+}
   ul.bullets li {
-    font-size: 10pt;
-    margin-bottom: 3px;
+      font-size: 10pt;
+      margin-bottom: 3px;
+      position: relative;
+      padding-left: 14px;
   }
+  ul.bullets li::before {
+      content: "–";
+      position: absolute;
+      left: 0;
+  }  
   .kv-line {
     font-size: 10pt;
     margin: 3px 0;
@@ -107,6 +127,12 @@
     font-size: 10pt;
     margin: 2px 0 6px;
   }
+  .project-entry {
+      margin-top: 25px;
+  }
+  .project-entry:first-of-type {
+      margin-top: 0;
+  }  
   .authors {
     font-size: 10pt;
     margin-bottom: 8px;
@@ -136,16 +162,16 @@
         luca.sclisizzo@gmail.com &nbsp;|&nbsp;
         +39 331 572 0791 &nbsp;|&nbsp;
         Trieste, Italy &nbsp;|&nbsp;
-        <a href="https://lsclisizzo.com" target="_blank" rel="noopener noreferrer">website</a> &nbsp;|&nbsp;
+        <a href="https://lsclisizzo.com" target="_blank" rel="noopener noreferrer">Website</a> &nbsp;|&nbsp;
         <a href="https://www.linkedin.com/in/luca-sclisizzo-814b6a260/" target="_blank" rel="noopener noreferrer">LinkedIn</a> &nbsp;|&nbsp;
-        <a href="https://github.com/Luca-Sclisizzo" target="_blank" rel="noopener noreferrer">github</a> &nbsp;|&nbsp;
+        <a href="https://github.com/Luca-Sclisizzo" target="_blank" rel="noopener noreferrer">Github</a> &nbsp;|&nbsp;
         <a href="https://orcid.org/0009-0001-2757-4261" target="_blank" rel="noopener noreferrer">ORCID</a>
       </div>
     </header>
   
     <section>
       <h2 class="section-header">RESEARCH INTERESTS</h2>
-      <p class="body-text">Behavioral Genetics &middot; Biological Psychiatry &middot; Developmental Transcriptomics &middot; Spatio-Temporal Transcriptomics &middot; Bayesian Modeling &middot; Polygenic Risk Scores &middot; Longitudinal Statistical Modeling</p>
+      <p class="body-text">Biological Psychiatry &middot; Spatio-Temporal Transcriptomics &middot; Bayesian Modeling &middot; Machine Learning &middot; Longitudinal Modeling</p>
     </section>
   
     <section>
@@ -157,7 +183,7 @@
       <span class="date">Oct 2024 – Present</span>
     </div>
         <div class="entry-subtitle">University of Trieste, Italy</div>
-        <ul class="bullets"><li>Current GPA: 29.5/30</li><li>Concentration in quantitative and computational methods for psychological research</li><li>Coursework in Structural Equation Modeling (SEM), Bayesian modeling, and longitudinal data analysis</li><li>Advanced training in probabilistic inference and MCMC methods</li><li>EQF Level 7 | 120 ECTS</li></ul>
+        <ul class="bullets"><li>Current GPA: 29.5/30</li><li>Concentration in quantitative and computational methods for behavioral genetics</li><li>Coursework in Structural Equation Modeling (SEM), Bayesian modeling, and longitudinal data analysis</li><li>Advanced training in probabilistic inference and MCMC methods</li><li>EQF Level 7 | 120 ECTS</li></ul>
       
         
     <div class="entry-title">
@@ -178,16 +204,16 @@
       <span class="date">Aug – Nov 2025</span>
     </div>
         <div class="entry-subtitle">Department of Psychiatry, Washington University School of Medicine, St. Louis, USA</div>
-        <p class="body-text">Research conducted in the Behavior, Environment, and Genetics Laboratory (PI: Prof. Emma C. Johnson), focusing on behavioral genetics and biological psychiatry applied to psychosis spectrum disorders.</p>
+        <p class="body-text">Behavior, Environment, and Genetics Laboratory (PI: Prof. Emma C. Johnson), focusing on behavioral genetics and biological psychiatry.</p>
         
           <div class="subheading">Genetics &amp; Genomics</div>
-          <ul class="bullets"><li>Applied multivariate genetic modeling (GenomicSEM) for complex trait decomposition and cross-trait genetic architecture analysis</li><li>Post-GWAS functional annotation using MAGMA and stratified LD score regression (S-LDSC)</li><li>Characterized gene expression trajectories across human brain developmental stages from high-throughput RNA-seq data</li><li>Computed Polygenic Risk Scores via Bayesian shrinkage methods (SBayesRC)</li></ul>
+          <ul class="bullets"><li>Multivariate genetic modeling (GenomicSEM)</li><li>Post-GWAS functional annotation via MAGMA and stratified LD score regression (S-LDSC)</li><li>Gene expression trajectories across brain development from RNA-seq data</li><li>Polygenic Risk Scores via SBayesRC</li></ul>
         
           <div class="subheading">Longitudinal Modeling</div>
-          <ul class="bullets"><li>Implemented longitudinal hierarchical models to examine executive functioning trajectories across development</li><li>Survival analysis (Cox proportional hazards) applied to the COGA longitudinal cohort</li></ul>
+          <ul class="bullets"><li>Hierarchical models of executive functioning trajectories across development</li><li>Survival analysis (Cox proportional hazards) on the COGA longitudinal cohort</li></ul>
         
           <div class="subheading">Computational Methods</div>
-          <ul class="bullets"><li>Proficient in deploying and managing genomic pipelines on HPC clusters (SLURM, job arrays, parallel execution)</li><li>Statistical programming in R and Python, using Bioconductor and GWASlab for genomic analyses</li></ul>
+          <ul class="bullets"><li>Deployed genomic pipelines on HPC clusters (SLURM, job arrays)</li><li>Programming in R and Python for biological analyses</li></ul>
         
       
     </section>
@@ -211,6 +237,52 @@
       <span class="key">Computing:</span>
       <span class="value">HPC cluster systems (SLURM), Linux/bash scripting, Git</span>
     </div>
+    </section>
+  
+    <section>
+      <h2 class="section-header">MANUSCRIPTS UNDER REVIEW</h2>
+      
+        <div class="entry-title-only">Parsing the Functional Heterogeneity of the Psychosis Spectrum: A Clinically Informed Application of Genomic Structural Equation Modeling</div>
+        <div class="entry-subtitle">Washington University School of Medicine, St. Louis, USA · University of Trieste, Italy</div>
+        
+    <div class="kv-line">
+      <span class="key">Preprint:</span>
+      <span class="value"><a href="https://doi.org/10.64898/2026.09.08.26362224" target="_blank" rel="noopener noreferrer">https://doi.org/10.64898/2026.09.08.26362224</a></span>
+    </div>
+        
+    <div class="kv-line highlight">
+      <span class="key">Role:</span>
+      <span class="value">First author</span>
+    </div>
+        <p class="body-text">This manuscript uses GenomicSEM and enrichments tecniques to disentangle the dimensional structure and heterogeneity of the psychosis continuum.</p>
+      
+    </section>
+  
+    <section>
+      <h2 class="section-header">ONGOING PROJECTS</h2>
+      
+        <div class="project-entry">
+          <div class="entry-title-only">Characterizing the Sex-Specific Genetic Architecture of Substance Use Disorders</div>
+          <div class="entry-subtitle">Washington University School of Medicine, St. Louis, USA · University of Trieste, Italy</div>
+          
+    <div class="kv-line highlight">
+      <span class="key">Role:</span>
+      <span class="value">Co-author</span>
+    </div>
+          <p class="body-text">This work performs cross-ancestry, sex-stratified GWAS analyses of traits within the substance-use domain.</p>
+        </div>
+      
+        <div class="project-entry">
+          <div class="entry-title-only">Longitudinal PheWAS in ABCD</div>
+          <div class="entry-subtitle">Washington University School of Medicine, St. Louis, USA · University of Trieste, Italy</div>
+          
+    <div class="kv-line highlight">
+      <span class="key">Role:</span>
+      <span class="value">Co-author</span>
+    </div>
+          <p class="body-text">This work applies a longitudinal PheWAS framework to the ABCD dataset, linking genetic liability for psychosis dimensions to developmental trajectories across childhood.</p>
+        </div>
+      
     </section>
   
     <section>
@@ -241,52 +313,7 @@
         <div class="presentation-title">Dissecting the spectrum of psychosis: leveraging time and dimensionality to explore multiple, functionally separable sources of genetic risk.</div>
         <div class="authors">
           <span class="authors-name">Sclisizzo L</span>, Baranger DAA, Clapp Sullivan ML, Hatoum AS, Burnett C, Del Giudice M, Johnson EC.
-          <span class="affiliations">Department of Life Sciences, University of Trieste, Italy; Department of Psychiatry, Washington University School of Medicine, St. Louis, Missouri, USA;	Department of Pharmacology and Toxicology, Medical College of Wisconsin, Milwaukee, Wisconsin, USA.</span>
         </div>
-      
-    </section>
-  
-    <section>
-      <h2 class="section-header">ONGOING PROJECTS</h2>
-      
-        
-    <div class="entry-title">
-      <span class="title">Parsing the Functional Heterogeneity of the Psychosis Spectrum: A Clinically Informed Application of Genomic Structural Equation Modeling</span>
-      <span class="date">In preparation</span>
-    </div>
-        <div class="entry-subtitle">Washington University School of Medicine, St. Louis, USA · University of Trieste, Italy</div>
-        
-    <div class="kv-line highlight">
-      <span class="key">Role:</span>
-      <span class="value">First author</span>
-    </div>
-        <p class="body-text">This manuscript investigates the dimensional structure of the psychosis continuum, aiming to use genetic data to disentangle the sources of heterogeneity across the psychotic disorders. The project draws on post-GWAS analytical frameworks and functional annotations to characterize transdiagnostic liability dimensions.</p>
-      
-        
-    <div class="entry-title">
-      <span class="title">Longitudinal PheWAS in ABCD</span>
-      <span class="date">In preparation</span>
-    </div>
-        <div class="entry-subtitle">Washington University School of Medicine, St. Louis, USA · University of Trieste, Italy</div>
-        
-    <div class="kv-line highlight">
-      <span class="key">Role:</span>
-      <span class="value">Co-author</span>
-    </div>
-        <p class="body-text">This work extends the Phenome-Wide Association Study (PheWAS) framework to a longitudinal setting, leveraging the ABCD (Adolescent Brain Cognitive Development) dataset. The project investigates the relationships between psychosis dimensionality at the genetic level and its phenotypic associations and developmental trajectories across childhood, and examines the degree of change and stability of genetic liability over time.</p>
-      
-    </section>
-  
-    <section>
-      <h2 class="section-header">AWARDS</h2>
-      
-        
-    <div class="entry-title">
-      <span class="title">BGA Travel Award</span>
-      <span class="date">2026</span>
-    </div>
-        <div class="entry-subtitle">Behavior Genetics Association</div>
-        <p class="body-text">Travel award supporting attendance at the Behavior Genetics Association Annual Meeting in Amsterdam.</p>
       
     </section>
   
@@ -315,7 +342,28 @@
       <span class="date">Aug 2024</span>
     </div>
         <div class="entry-subtitle">Berlin, Germany</div>
-        <p class="body-text">Biennial conference exploring the full spectrum of personality psychology, with emphasis on innovative assessment methods leveraging mobile sensing and AI technologies.</p>
+        <p class="body-text">Biennial conference of personality psychology, with emphasis on innovative assessment methods leveraging mobile sensing and AI technologies.</p>
+      
+    </section>
+  
+    <section>
+      <h2 class="section-header">AWARDS</h2>
+      
+        
+    <div class="entry-title">
+      <span class="title">BGA Travel Award</span>
+      <span class="date">2026</span>
+    </div>
+        <div class="entry-subtitle">Behavior Genetics Association</div>
+        <p class="body-text">Travel award supporting attendance at the Behavior Genetics Association Annual Meeting in Amsterdam.</p>
+      
+        
+    <div class="entry-title">
+      <span class="title">Young Athlete of the Year</span>
+      <span class="date">2019</span>
+    </div>
+        <div class="entry-subtitle">Evergreen Life Foundation, in collaboration with USSI FVG</div>
+        <p class="body-text">Scholarship awarded for combining academic performance with athletic achievement.</p>
       
     </section>
   
@@ -328,15 +376,15 @@
       <span class="date">Nov 2023 – Mar 2025</span>
     </div>
         <div class="entry-subtitle">Salomon S.A.S., Annecy, France</div>
-        <ul class="bullets"><li>Provided high-performance technical support to multiple national biathlon teams at international competitions</li><li>Collaborated with the R&amp;D department to contribute product feedback and improve high-performance sport equipment</li><li>Operated in demanding, high-pressure international environments requiring cultural adaptability and logistical resilience</li></ul>
+        <ul class="bullets"><li>Provided high-performance technical support for world-cup competitions</li><li>Collaborated with the R&amp;D department to improve high-performance sport equipment</li><li>Operated in high-pressure international environments</li></ul>
       
         
     <div class="entry-title">
-      <span class="title">Competitive Alpine Skier – Italian National Team</span>
+      <span class="title">Professional Cross-Country Skier – Italian National Team</span>
       <span class="date">Oct 2019 – Oct 2022</span>
     </div>
         <div class="entry-subtitle">Army’s Sport Center (Centro Sportivo Esercito), Courmayeur, Italy</div>
-        <ul class="bullets"><li>Represented Italy in national and international alpine ski competitions</li><li>3rd place finish at the World Championships; multiple European Cup podiums</li><li>Collaborated with multidisciplinary performance teams (coaches, physiotherapists, sports psychologists)</li><li>Demonstrated sustained high performance under competitive pressure and elite-level self-regulation</li></ul>
+        <ul class="bullets"><li>Represented Italy in national and international alpine ski competitions</li><li>3rd place finish at the World Championships; multiple European Cup podiums</li><li>Collaborated with multidisciplinary performance teams (coaches, physiotherapists, sports psychologists)</li><li>Demonstrated high performance under competitive pressure and elite-level self-regulation</li></ul>
       
         
     <div class="entry-title">
@@ -344,20 +392,20 @@
       <span class="date">Nov 2022 – May 2023</span>
     </div>
         <div class="entry-subtitle">FIGC (Italian Football Federation), Regional Center, Palmanova, Italy</div>
-        <ul class="bullets"><li>Analyzed coach-athlete communication dynamics in youth development contexts (children and adolescents)</li><li>Designed and delivered emotional awareness and regulation training programs for coaches and athletes</li><li>Facilitated goal-setting processes tailored to individual and team performance objectives</li><li>Led structured activities aimed at improving teamwork and team cohesion</li></ul>
+        <ul class="bullets"><li>Analyzed coach-athlete communication dynamics</li><li>Delivered emotional regulation training programs for coaches</li><li>Facilitated goal-setting processes for individual and team performance objectives</li><li>Led structured activities aimed at improving teamwork and team cohesion</li></ul>
       
     </section>
   
     <section>
       <h2 class="section-header">LANGUAGES</h2>
       
-    <div class="kv-line highlight">
+    <div class="kv-line">
       <span class="key">Italian:</span>
       <span class="value">Native</span>
     </div>
     <div class="kv-line">
       <span class="key">English:</span>
-      <span class="value">Proficient (C1) – reading, writing, spoken production and interaction</span>
+      <span class="value">Proficient (C1) – TOEFL iBT score 110 / 120</span>
     </div>
     <div class="kv-line">
       <span class="key">French:</span>
@@ -366,7 +414,7 @@
     </section>
   
     <footer class="cv-footer">
-      Last updated August 2026
+      Last updated September 2026
     </footer>
 </body>
 </html>
