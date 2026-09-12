@@ -14,7 +14,7 @@ statistical genetics and biological psychiatry.
 [Master of Psychology]{.pub-title}\
 *Department of Life Sciences, University of Trieste* · Trieste, Italy\
 [Period:]{.pub-meta} [2024–Ongoing]{.pub-meta-value}\
-[Specialization:]{.pub-meta} [Computational models and behavioral genetics]{.pub-meta-value}\
+[Specialization:]{.pub-meta} [Computational Models and Behavioral Genetics]{.pub-meta-value}\
 [GPA:]{.pub-meta} [29.5 / 30]{.pub-meta-value}
 
 Bachelor of Psychology (Honours)\
