@@ -3,9 +3,8 @@ title: "Talks & Conferences"
 ---
 
 This page contains a list of talks, presentations, and conferences
-highlighting my research activities, academic contributions, and
-scientific interests. Abstracts and slides are available on my OSF
-page, with links provided after the corresponding presentations.
+highlighting my research activities with abstracts and slides available on my OSF page,
+with links provided after the corresponding presentations.
 
 ::: {.talks}
 

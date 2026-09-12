@@ -9,11 +9,7 @@ execute:
 source("bibtools.R")
 ```
 
-This page contains a list of my publications, preprints, and research
-materials. Where available, links to manuscripts, abstracts, and
-supplementary materials are provided. Please feel free to
-[contact me](mailto:luca.sclisizzo@gmail.com) if you would like access
-to any materials that are not publicly available.
+This page lists my publications, preprints, and research materials, with links to available manuscripts and supplementary materials. Please [contact me](mailto:luca.sclisizzo@gmail.com) for materials not publicly available.
 
 ::: {.pub-year-groups}
 ```{r}
