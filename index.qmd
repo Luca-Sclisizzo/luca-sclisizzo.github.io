@@ -11,7 +11,7 @@ about:
       href: mailto:luca.sclisizzo@gmail.com
     - icon: mortarboard-fill
       text: Scholar
-      href: "https://scholar.google.com/citations?user=PASTE_YOUR_ID_HERE" # TODO: replace with your real Google Scholar profile URL
+      href: "https://scholar.google.com/citations?hl=it&user=3xZe5gEAAAAJ"
     # No Bootstrap glyph for ORCID — styles.css draws the real mark via ::before.
     - text: ORCID
       href: https://orcid.org/0009-0001-2757-4261

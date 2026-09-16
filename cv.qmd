@@ -50,7 +50,7 @@ presentations, and research activities:
 
 ## Profiles
 
-[Google Scholar](https://scholar.google.com/citations?user=YOUR_ID){.pub-badge target="_blank" rel="noopener"}
+[Google Scholar](https://scholar.google.com/citations?hl=it&user=3xZe5gEAAAAJ){.pub-badge target="_blank" rel="noopener"}
 [ORCID](https://orcid.org/0009-0001-2757-4261){.pub-badge target="_blank" rel="noopener"}
 [OSF](https://osf.io/j6e4s/){.pub-badge target="_blank" rel="noopener"}
 [GitHub](https://github.com/Luca-Sclisizzo){.pub-badge target="_blank" rel="noopener"}
