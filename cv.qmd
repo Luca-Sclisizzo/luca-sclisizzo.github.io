@@ -11,10 +11,12 @@ statistical genetics and biological psychiatry.
 
 ## Education
 
-[Master of Psychology]{.pub-title}\
+[Master of Psychology]{.pub-title} (Honours)\
 *Department of Life Sciences, University of Trieste* · Trieste, Italy\
-[Period:]{.pub-meta} [2024–Ongoing]{.pub-meta-value}\
+[Period:]{.pub-meta} [2024–2026]{.pub-meta-value}\
 [Specialization:]{.pub-meta} [Computational Models and Behavioral Genetics]{.pub-meta-value}\
+[Thesis:]{.pub-meta} [Functional Splitting of Psychosis Spectrum: A Clinical Application of Genomic SEM]{.pub-meta-value}\
+[Grade:]{.pub-meta} [With Honours]{.pub-meta-value}\
 [GPA:]{.pub-meta} [29.5 / 30]{.pub-meta-value}
 
 Bachelor of Psychology (Honours)\
@@ -23,6 +25,13 @@ Bachelor of Psychology (Honours)\
 [Grade:]{.pub-meta} [With Honours]{.pub-meta-value}
 
 ## Positions
+[Visiting Scholar]{.pub-title} (100%)\
+*Department of Psychiatry, Washington University School of Medicine* ·
+St. Louis, Missouri, USA\
+[Period:]{.pub-meta} [November 2026 - Present]{.pub-meta-value}\
+[Lab:]{.pub-meta} [Behavior, Environment, and Genetics Laboratory (PI: Dr.
+Emma C. Johnson) and Hatoum Laboratory (PI: Dr. Alexander S. Hatoum)]{.pub-meta-value}\
+[Focus:]{.pub-meta} [Machine learning for multi-PRS prediction and genetically informed longitudinal models]{.pub-meta-value}
 
 [Visiting Scholar]{.pub-title} (100%)\
 *Department of Psychiatry, Washington University School of Medicine* ·
