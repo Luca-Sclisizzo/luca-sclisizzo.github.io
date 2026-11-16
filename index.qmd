@@ -38,13 +38,13 @@ Genomics × Psychology × Statistics
 
 # Hi, I'm Luca 👋
 
-I hold an M.Sc. in Applied Psychology from the University of Trieste, where I
-specialized in statistical genomics and biological psychiatry.
-
 I am currently a visiting scholar at the
 [Behavior, Environment, and Genetics Lab](https://sites.wustl.edu/emmajohnsonlab/)
 at WashU in St. Louis, MO, USA, working on the genomics of psychiatric traits
 and machine-learning approaches to biomedical data.
+
+I hold an M.Sc. in Applied Psychology from the University of Trieste, where I
+specialized in statistical genomics and biological psychiatry.
 
 ## Research Interests
 
